@@ -9,15 +9,17 @@
 
 | Name | Type | Tags | Description | Getter | Setter |
 |  --- | --- | --- | --- | --- | --- |
-| `Success` | `boolean` | Required | - | boolean getSuccess() | setSuccess(boolean success) |
+| `Passed` | `boolean` | Required | - | boolean getPassed() | setPassed(boolean passed) |
 | `Message` | `String` | Optional | - | String getMessage() | setMessage(String message) |
+| `Input` | `Map<String, Object>` | Optional | - | Map<String, Object> getInput() | setInput(Map<String, Object> input) |
 
 ## Example (as JSON)
 
 ```json
 {
-  "success": false,
-  "message": null
+  "passed": false,
+  "Message": null,
+  "input": null
 }
 ```
 

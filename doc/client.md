@@ -11,14 +11,14 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```java
-TesterXMLClient client = new TesterXMLClient.Builder()
+JsonValueTesterClient client = new JsonValueTesterClient.Builder()
     .httpClientConfig(configBuilder -> configBuilder
             .timeout(0))
     .environment(Environment.TESTING)
     .build();
 ```
 
-## Tester-XMLClient Class
+## JsonValueTesterClient Class
 
 The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 
@@ -26,27 +26,7 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 
 | Name | Description | Return Type |
 |  --- | --- | --- |
-| `getDiscriminateUsingAttribute()` | Provides access to DiscriminateUsingAttribute controller. | `DiscriminateUsingAttribute` |
-| `getDiscriminateUsingElement()` | Provides access to DiscriminateUsingElement controller. | `DiscriminateUsingElement` |
-| `getSimpleAttributesModel()` | Provides access to SimpleAttributesModel controller. | `SimpleAttributesModel` |
-| `getAttributesModelWithInheritance()` | Provides access to AttributesModelWithInheritance controller. | `AttributesModelWithInheritance` |
-| `getNestedAttributesModel()` | Provides access to NestedAttributesModel controller. | `NestedAttributesModel` |
-| `getSimpleElementsModel()` | Provides access to SimpleElementsModel controller. | `SimpleElementsModel` |
-| `getElementsModelWithInheritance()` | Provides access to ElementsModelWithInheritance controller. | `ElementsModelWithInheritance` |
-| `getNestedElementsModel()` | Provides access to NestedElementsModel controller. | `NestedElementsModel` |
-| `getSingleElementModelWithModelNodeName()` | Provides access to SingleElementModelWithModelNodeName controller. | `SingleElementModelWithModelNodeName` |
-| `getAttributesAndElementsModel()` | Provides access to AttributesAndElementsModel controller. | `AttributesAndElementsModel` |
-| `getStringEnumeration()` | Provides access to StringEnumeration controller. | `StringEnumeration` |
-| `getIntegerEnumeration()` | Provides access to IntegerEnumeration controller. | `IntegerEnumeration` |
-| `getElementsArray()` | Provides access to ElementsArray controller. | `ElementsArray` |
-| `getNamedElementsArray()` | Provides access to NamedElementsArray controller. | `NamedElementsArray` |
-| `getWrappedArray()` | Provides access to WrappedArray controller. | `WrappedArray` |
-| `getWrappedAndNamedArray()` | Provides access to WrappedAndNamedArray controller. | `WrappedAndNamedArray` |
-| `getSimpleInteger()` | Provides access to SimpleInteger controller. | `SimpleInteger` |
-| `getSimplePrecision()` | Provides access to SimplePrecision controller. | `SimplePrecision` |
-| `getSimpleLong()` | Provides access to SimpleLong controller. | `SimpleLong` |
-| `getSimpleString()` | Provides access to SimpleString controller. | `SimpleString` |
-| `getSimpleUUID()` | Provides access to SimpleUUID controller. | `SimpleUUID` |
+| `getAPIController()` | Provides access to Client controller. | `APIController` |
 
 ### Methods
 

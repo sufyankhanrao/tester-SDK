@@ -41,7 +41,7 @@ CompletableFuture<ServerResponse> dateArrayAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `dates` | `List<LocalDate>` | Query, Required | <testing><br> |
+| `dates` | `List<LocalDate>` | Query, Required | &lt;testing&gt;<br> |
 
 ## Response Type
 

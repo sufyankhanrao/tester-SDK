@@ -5,20 +5,24 @@ The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
+| `port` | `String` | <testing><br>*Default*: `"80"` |
+| `suites` | `SuiteCode` | <testing><br>*Default*: `SuiteCode.HEARTS` |
 | `environment` | Environment | The API environment. <br> **Default: `Environment.TESTING`** |
 | `httpClientConfig` | `ReadonlyHttpClientConfiguration` | Http Client Configuration instance.<br>* See available [builder methods here](/doc/http-client-configuration-builder.md). |
 
 The API client can be initialized as follows:
 
 ```java
-JsonValueTesterClient client = new JsonValueTesterClient.Builder()
+TesterClient client = new TesterClient.Builder()
     .httpClientConfig(configBuilder -> configBuilder
             .timeout(0))
     .environment(Environment.TESTING)
+    .port("80")
+    .suites(SuiteCode.HEARTS)
     .build();
 ```
 
-## JsonValueTesterClient Class
+## TesterClient Class
 
 The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 
@@ -26,7 +30,15 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 
 | Name | Description | Return Type |
 |  --- | --- | --- |
-| `getAPIController()` | Provides access to Client controller. | `APIController` |
+| `getResponseTypesController()` | Provides access to ResponseTypes controller. | `ResponseTypesController` |
+| `getFormParamsController()` | Provides access to FormParams controller. | `FormParamsController` |
+| `getBodyParamsController()` | Provides access to BodyParams controller. | `BodyParamsController` |
+| `getErrorCodesController()` | Provides access to ErrorCodes controller. | `ErrorCodesController` |
+| `getQueryParamController()` | Provides access to QueryParam controller. | `QueryParamController` |
+| `getEchoController()` | Provides access to Echo controller. | `EchoController` |
+| `getHeaderController()` | Provides access to Header controller. | `HeaderController` |
+| `getTemplateParamsController()` | Provides access to TemplateParams controller. | `TemplateParamsController` |
+| `getQueryParamsController()` | Provides access to QueryParams controller. | `QueryParamsController` |
 
 ### Methods
 
@@ -34,6 +46,8 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 |  --- | --- | --- |
 | `shutdown()` | Shutdown the underlying HttpClient instance. | `void` |
 | `getEnvironment()` | Current API environment. | `Environment` |
+| `getPort()` | <testing><br> | `String` |
+| `getSuites()` | <testing><br> | `SuiteCode` |
 | `getHttpClient()` | The HTTP Client instance to use for making HTTP requests. | `HttpClient` |
 | `getHttpClientConfig()` | Http Client Configuration instance. | `ReadonlyHttpClientConfiguration` |
 | `getBaseUri(Server server)` | Get base URI by current environment | `String` |

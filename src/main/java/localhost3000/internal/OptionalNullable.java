@@ -1,5 +1,5 @@
 /*
- * JsonValueTesterLib
+ * TesterLib
  *
  * This file was automatically generated for Stamplay by APIMATIC v3.0 ( https://www.apimatic.io ).
  */
@@ -10,6 +10,11 @@ import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.Map;
+import localhost3000.DateTimeHelper;
 
 /**
  * Class to encapsulate fields which are Optional as well as Nullable. It also
@@ -66,6 +71,87 @@ public class OptionalNullable<T> {
         public void serialize(OptionalNullable<Object> object, JsonGenerator jgen,
                 SerializerProvider provider) throws IOException {
             jgen.writeObject(object.value);
+        }
+    }
+
+    /**
+     * A class to handle serialization of Unix Timestamps to DateTime objects.
+     */
+    public static class UnixTimestampSerializer extends JsonSerializer<OptionalNullable<Object>> {
+        @SuppressWarnings("unchecked")
+        @Override
+        public void serialize(OptionalNullable<Object> object, JsonGenerator jgen,
+                SerializerProvider provider) throws IOException {
+            if (object.value instanceof List<?>) {
+                jgen.writeObject(
+                        DateTimeHelper.toUnixTimestampLong((List<LocalDateTime>) object.value));
+            } else if (object.value instanceof Map<?, ?>) {
+                jgen.writeObject(DateTimeHelper
+                        .toUnixTimestampLong((Map<String, LocalDateTime>) object.value));
+            } else {
+                jgen.writeObject(DateTimeHelper.toUnixTimestampLong((LocalDateTime) object.value));
+            }
+        }
+    }
+
+    /**
+     * A class to handle serialization of Rfc1123 format strings to DateTime
+     * objects.
+     */
+    public static class Rfc1123DateTimeSerializer extends JsonSerializer<OptionalNullable<Object>> {
+        @SuppressWarnings("unchecked")
+        @Override
+        public void serialize(OptionalNullable<Object> object, JsonGenerator jgen,
+                SerializerProvider provider) throws IOException {
+            if (object.value instanceof List<?>) {
+                jgen.writeObject(
+                        DateTimeHelper.toRfc1123DateTime((List<LocalDateTime>) object.value));
+            } else if (object.value instanceof Map<?, ?>) {
+                jgen.writeObject(DateTimeHelper
+                        .toRfc1123DateTime((Map<String, LocalDateTime>) object.value));
+            } else {
+                jgen.writeString(DateTimeHelper.toRfc1123DateTime((LocalDateTime) object.value));
+            }
+        }
+    }
+
+    /**
+     * A class to handle serialization of Rfc8601(Rfc3339) format strings to
+     * DateTime objects.
+     */
+    public static class Rfc8601DateTimeSerializer extends JsonSerializer<OptionalNullable<Object>> {
+        @SuppressWarnings("unchecked")
+        @Override
+        public void serialize(OptionalNullable<Object> object, JsonGenerator jgen,
+                SerializerProvider provider) throws IOException {
+            if (object.value instanceof List<?>) {
+                jgen.writeObject(
+                        DateTimeHelper.toRfc8601DateTime((List<LocalDateTime>) object.value));
+            } else if (object.value instanceof Map<?, ?>) {
+                jgen.writeObject(DateTimeHelper
+                        .toRfc8601DateTime((Map<String, LocalDateTime>) object.value));
+            } else {
+                jgen.writeString(DateTimeHelper.toRfc8601DateTime((LocalDateTime) object.value));
+            }
+        }
+    }
+
+    /**
+     * A class to handle serialization of LocalDate objects to date strings.
+     */
+    public static class SimpleDateSerializer extends JsonSerializer<OptionalNullable<Object>> {
+        @SuppressWarnings("unchecked")
+        @Override
+        public void serialize(OptionalNullable<Object> object, JsonGenerator jgen,
+                SerializerProvider provider) throws IOException {
+            if (object.value instanceof List<?>) {
+                jgen.writeObject(DateTimeHelper.toSimpleDate((List<LocalDate>) object.value));
+            } else if (object.value instanceof Map<?, ?>) {
+                jgen.writeObject(
+                        DateTimeHelper.toSimpleDate((Map<String, LocalDate>) object.value));
+            } else {
+                jgen.writeString(DateTimeHelper.toSimpleDate((LocalDate) object.value));
+            }
         }
     }
 }

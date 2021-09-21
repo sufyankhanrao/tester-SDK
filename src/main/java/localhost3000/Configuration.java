@@ -1,5 +1,5 @@
 /*
- * JsonValueTesterLib
+ * TesterLib
  *
  * This file was automatically generated for Stamplay by APIMATIC v3.0 ( https://www.apimatic.io ).
  */
@@ -7,6 +7,7 @@
 package localhost3000;
 
 import localhost3000.http.client.ReadonlyHttpClientConfiguration;
+import localhost3000.models.SuiteCode;
 
 /**
  * Configuration Interface for the library.
@@ -18,6 +19,18 @@ public interface Configuration {
      * @return a copy of environment
      */
     Environment getEnvironment();
+
+    /**
+     * <testing>
+     * @return a copy of port
+     */
+    String getPort();
+
+    /**
+     * <testing>
+     * @return a copy of suites
+     */
+    SuiteCode getSuites();
 
     /**
      * Http Client Configuration instance. 

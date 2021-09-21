@@ -1,5 +1,5 @@
 /*
- * JsonValueTesterLib
+ * TesterLib
  *
  * This file was automatically generated for Stamplay by APIMATIC v3.0 ( https://www.apimatic.io ).
  */
@@ -11,6 +11,7 @@ import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -132,6 +133,33 @@ public class ApiHelper {
                 this.registerModule(module);
             }
         }.writeValueAsString(obj);
+    }
+
+    /**
+     * Json deserialization of the given Json string using a specified JsonDerializer.
+     * @param   json The Json string to deserialize.
+     * @param   typeReference TypeReference of list of T.
+     * @param   <T> The type of the object to deserialize into.
+     * @param   cls The class to attach the deserializer to.
+     * @param   deserializer The deserializer to use.
+     * @return  The deserialized object.
+     * @throws  IOException Signals if any I/O exception occured.
+     */
+    public static <T extends Object> List<T> deserialize(String json,
+            final TypeReference<List<T>> typeReference, final Class<T> cls,
+            final JsonDeserializer<T> deserializer) throws IOException {
+        if (isNullOrWhiteSpace(json)) {
+            return null;
+        }
+
+        return new ObjectMapper() {
+            private static final long serialVersionUID = -1639089569991988232L;
+            {
+                SimpleModule module = new SimpleModule();
+                module.addDeserializer(cls, deserializer);
+                this.registerModule(module);
+            }
+        }.readValue(json, typeReference);
     }
 
     /**

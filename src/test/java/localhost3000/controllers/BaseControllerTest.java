@@ -1,5 +1,5 @@
 /*
- * JsonValueTesterLib
+ * TesterLib
  *
  * This file was automatically generated for Stamplay by APIMATIC v3.0 ( https://www.apimatic.io ).
  */
@@ -7,7 +7,8 @@
 package localhost3000.controllers;
 
 import localhost3000.Environment;
-import localhost3000.JsonValueTesterClient;
+import localhost3000.TesterClient;
+import localhost3000.models.SuiteCode;
 import localhost3000.testing.HttpCallbackCatcher;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -57,14 +58,22 @@ public class BaseControllerTest {
     /**
      * Create test configuration from Environment variables.
      */
-    protected static JsonValueTesterClient createConfigurationFromEnvironment() {
-        JsonValueTesterClient.Builder builder = new JsonValueTesterClient.Builder();
+    protected static TesterClient createConfigurationFromEnvironment() {
+        TesterClient.Builder builder = new TesterClient.Builder();
 
-        final String environment = System.getenv("JSON_VALUE_TESTER_LIB_ENVIRONMENT");
-        final String timeout = System.getenv("JSON_VALUE_TESTER_LIB_TIMEOUT");
+        final String environment = System.getenv("TESTER_LIB_ENVIRONMENT");
+        final String port = System.getenv("TESTER_LIB_PORT");
+        final String suites = System.getenv("TESTER_LIB_SUITES");
+        final String timeout = System.getenv("TESTER_LIB_TIMEOUT");
 
         if (environment != null) {
             builder.environment(Environment.fromString(environment));
+        }
+        if (port != null) {
+            builder.port(port);
+        }
+        if (suites != null) {
+            builder.suites(SuiteCode.fromInteger(Integer.parseInt(suites)));
         }
         if (timeout != null) {
             builder.httpClientConfig(configBuilder -> configBuilder.timeout(
@@ -77,11 +86,13 @@ public class BaseControllerTest {
     /**
      * Create test configuration.
      */
-    protected static JsonValueTesterClient createConfiguration() {
+    protected static TesterClient createConfiguration() {
         // Set Configuration parameters for test execution
-        JsonValueTesterClient config = createConfigurationFromEnvironment();
+        TesterClient config = createConfigurationFromEnvironment();
         config = config.newBuilder()
                 .environment(Environment.TESTING)
+                .port("3000")
+                .suites(SuiteCode.DIAMONDS)
                 .httpCallback(httpResponse)
                 .build();
         return config;

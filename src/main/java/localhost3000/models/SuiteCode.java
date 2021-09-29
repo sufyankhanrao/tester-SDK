@@ -15,22 +15,22 @@ import java.util.TreeMap;
  */
 public enum SuiteCode {
     /**
-     * <testing>
+     * <testing> <testing>
      */
     HEARTS,
 
     /**
-     * <testing>
+     * <testing> <testing>
      */
     SPADES,
 
     /**
-     * <testing>
+     * <testing> <testing>
      */
     CLUBS,
 
     /**
-     * <testing>
+     * <testing> <testing>
      */
     DIAMONDS;
 

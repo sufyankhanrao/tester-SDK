@@ -1586,7 +1586,7 @@ public final class DefaultResponseTypesController extends BaseController impleme
     }
 
     /**
-     * gets a binary object.
+     * <testing> gets a binary object.
      * @return    Returns the InputStream response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -1600,7 +1600,7 @@ public final class DefaultResponseTypesController extends BaseController impleme
     }
 
     /**
-     * gets a binary object.
+     * <testing> gets a binary object.
      * @return    Returns the InputStream response from the API call
      */
     public CompletableFuture<InputStream> getBinaryAsync() {
@@ -1664,7 +1664,7 @@ public final class DefaultResponseTypesController extends BaseController impleme
     }
 
     /**
-     * Gets a integer response.
+     * <testing> Gets a integer response.
      * @return    Returns the Integer response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -1678,7 +1678,7 @@ public final class DefaultResponseTypesController extends BaseController impleme
     }
 
     /**
-     * Gets a integer response.
+     * <testing> Gets a integer response.
      * @return    Returns the Integer response from the API call
      */
     public CompletableFuture<Integer> getIntegerAsync() {
@@ -1737,7 +1737,7 @@ public final class DefaultResponseTypesController extends BaseController impleme
     }
 
     /**
-     * Get an array of integers.
+     * <testing> Get an array of integers.
      * @return    Returns the List of Integer response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -1751,7 +1751,7 @@ public final class DefaultResponseTypesController extends BaseController impleme
     }
 
     /**
-     * Get an array of integers.
+     * <testing> Get an array of integers.
      * @return    Returns the List of Integer response from the API call
      */
     public CompletableFuture<List<Integer>> getIntegerArrayAsync() {

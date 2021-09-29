@@ -21,13 +21,13 @@ public interface Configuration {
     Environment getEnvironment();
 
     /**
-     * <testing>
+     * <testing> <testing>
      * @return a copy of port
      */
     String getPort();
 
     /**
-     * <testing>
+     * <testing> <testing>
      * @return a copy of suites
      */
     SuiteCode getSuites();

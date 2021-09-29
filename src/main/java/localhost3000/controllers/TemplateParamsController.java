@@ -18,7 +18,7 @@ import localhost3000.models.EchoResponse;
  */
 public interface TemplateParamsController {
     /**
-     * @param  strings  Required parameter: <testing>
+     * @param  strings  Required parameter: <testing> <testing>
      * @return    Returns the EchoResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -27,14 +27,14 @@ public interface TemplateParamsController {
             final List<String> strings) throws ApiException, IOException;
 
     /**
-     * @param  strings  Required parameter: <testing>
+     * @param  strings  Required parameter: <testing> <testing>
      * @return    Returns the EchoResponse response from the API call
      */
     CompletableFuture<EchoResponse> sendStringArrayAsync(
             final List<String> strings);
 
     /**
-     * @param  integers  Required parameter: <testing>
+     * @param  integers  Required parameter: <testing> <testing>
      * @return    Returns the EchoResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -43,7 +43,7 @@ public interface TemplateParamsController {
             final List<Integer> integers) throws ApiException, IOException;
 
     /**
-     * @param  integers  Required parameter: <testing>
+     * @param  integers  Required parameter: <testing> <testing>
      * @return    Returns the EchoResponse response from the API call
      */
     CompletableFuture<EchoResponse> sendIntegerArrayAsync(

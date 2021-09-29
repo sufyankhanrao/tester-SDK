@@ -1,7 +1,7 @@
 
 # Global Test Exception
 
-To test specific global exceptions.
+&lt;testing&gt; To test specific global exceptions.
 
 ## Structure
 
@@ -11,8 +11,8 @@ To test specific global exceptions.
 
 | Name | Type | Tags | Description | Getter | Setter |
 |  --- | --- | --- | --- | --- | --- |
-| `ServerMessage` | `String` | Required | Represents the server's exception message | String getServerMessage() | setServerMessage(String serverMessage) |
-| `ServerCode` | `int` | Required | Represents the server's error code | int getServerCode() | setServerCode(int serverCode) |
+| `ServerMessage` | `String` | Required | &lt;testing&gt; Represents the server's exception message | String getServerMessage() | setServerMessage(String serverMessage) |
+| `ServerCode` | `int` | Required | &lt;testing&gt; Represents the server's error code | int getServerCode() | setServerCode(int serverCode) |
 
 ## Example (as JSON)
 

@@ -55,8 +55,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  number  Required parameter: <testing>
-     * @param  number1  Optional parameter: <testing>
+     * @param  number  Required parameter: <testing> <testing>
+     * @param  number1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -72,8 +72,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  number  Required parameter: <testing>
-     * @param  number1  Optional parameter: <testing>
+     * @param  number  Required parameter: <testing> <testing>
+     * @param  number1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     public CompletableFuture<ServerResponse> sendNumberAsOptionalAsync(
@@ -150,8 +150,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  mLong  Required parameter: <testing>
-     * @param  long1  Optional parameter: <testing>
+     * @param  mLong  Required parameter: <testing> <testing>
+     * @param  long1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -167,8 +167,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  mLong  Required parameter: <testing>
-     * @param  long1  Optional parameter: <testing>
+     * @param  mLong  Required parameter: <testing> <testing>
+     * @param  long1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     public CompletableFuture<ServerResponse> sendLongAsOptionalAsync(
@@ -245,8 +245,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  precision  Required parameter: <testing>
-     * @param  precision1  Optional parameter: <testing>
+     * @param  precision  Required parameter: <testing> <testing>
+     * @param  precision1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -262,8 +262,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  precision  Required parameter: <testing>
-     * @param  precision1  Optional parameter: <testing>
+     * @param  precision  Required parameter: <testing> <testing>
+     * @param  precision1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     public CompletableFuture<ServerResponse> precisionAsOptionalAsync(
@@ -340,8 +340,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  mBoolean  Required parameter: <testing>
-     * @param  boolean1  Optional parameter: <testing>
+     * @param  mBoolean  Required parameter: <testing> <testing>
+     * @param  boolean1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -357,8 +357,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  mBoolean  Required parameter: <testing>
-     * @param  boolean1  Optional parameter: <testing>
+     * @param  mBoolean  Required parameter: <testing> <testing>
+     * @param  boolean1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     public CompletableFuture<ServerResponse> booleanAsOptionalAsync(
@@ -435,8 +435,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  dateTime  Required parameter: <testing>
-     * @param  dateTime1  Optional parameter: <testing>
+     * @param  dateTime  Required parameter: <testing> <testing>
+     * @param  dateTime1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -452,8 +452,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  dateTime  Required parameter: <testing>
-     * @param  dateTime1  Optional parameter: <testing>
+     * @param  dateTime  Required parameter: <testing> <testing>
+     * @param  dateTime1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     public CompletableFuture<ServerResponse> rfc1123DatetimeAsOptionalAsync(
@@ -535,8 +535,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  dateTime  Required parameter: <testing>
-     * @param  dateTime1  Optional parameter: <testing>
+     * @param  dateTime  Required parameter: <testing> <testing>
+     * @param  dateTime1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -552,8 +552,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  dateTime  Required parameter: <testing>
-     * @param  dateTime1  Optional parameter: <testing>
+     * @param  dateTime  Required parameter: <testing> <testing>
+     * @param  dateTime1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     public CompletableFuture<ServerResponse> rfc3339DatetimeAsOptionalAsync(
@@ -635,8 +635,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  date  Required parameter: <testing>
-     * @param  date1  Optional parameter: <testing>
+     * @param  date  Required parameter: <testing> <testing>
+     * @param  date1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -652,8 +652,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  date  Required parameter: <testing>
-     * @param  date1  Optional parameter: <testing>
+     * @param  date  Required parameter: <testing> <testing>
+     * @param  date1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     public CompletableFuture<ServerResponse> sendDateAsOptionalAsync(
@@ -735,8 +735,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  string  Required parameter: <testing>
-     * @param  string1  Optional parameter: <testing>
+     * @param  string  Required parameter: <testing> <testing>
+     * @param  string1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -752,8 +752,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  string  Required parameter: <testing>
-     * @param  string1  Optional parameter: <testing>
+     * @param  string  Required parameter: <testing> <testing>
+     * @param  string1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     public CompletableFuture<ServerResponse> sendStringAsOptionalAsync(
@@ -835,8 +835,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  dateTime  Required parameter: <testing>
-     * @param  dateTime1  Optional parameter: <testing>
+     * @param  dateTime  Required parameter: <testing> <testing>
+     * @param  dateTime1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -852,8 +852,8 @@ public final class DefaultQueryParamsController extends BaseController implement
     }
 
     /**
-     * @param  dateTime  Required parameter: <testing>
-     * @param  dateTime1  Optional parameter: <testing>
+     * @param  dateTime  Required parameter: <testing> <testing>
+     * @param  dateTime1  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     public CompletableFuture<ServerResponse> unixdatetimeAsOptionalAsync(

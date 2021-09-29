@@ -23,7 +23,7 @@ import localhost3000.models.SuiteCode;
  */
 public interface QueryParamController {
     /**
-     * @param  dates  Required parameter: <testing>
+     * @param  dates  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -32,15 +32,15 @@ public interface QueryParamController {
             final List<LocalDate> dates) throws ApiException, IOException;
 
     /**
-     * @param  dates  Required parameter: <testing>
+     * @param  dates  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> dateArrayAsync(
             final List<LocalDate> dates);
 
     /**
-     * get optional dynamic query parameter.
-     * @param  name  Required parameter: <testing>
+     * <testing> get optional dynamic query parameter.
+     * @param  name  Required parameter: <testing> <testing>
      * @param    queryParameters    Additional optional query parameters are supported by this endpoint
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
@@ -51,8 +51,8 @@ public interface QueryParamController {
             final Map<String, Object> queryParameters) throws ApiException, IOException;
 
     /**
-     * get optional dynamic query parameter.
-     * @param  name  Required parameter: <testing>
+     * <testing> get optional dynamic query parameter.
+     * @param  name  Required parameter: <testing> <testing>
      * @param    queryParameters    Additional optional query parameters are supported by this endpoint
      * @return    Returns the ServerResponse response from the API call
      */
@@ -61,7 +61,7 @@ public interface QueryParamController {
             final Map<String, Object> queryParameters);
 
     /**
-     * @param  date  Required parameter: <testing>
+     * @param  date  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -70,14 +70,14 @@ public interface QueryParamController {
             final LocalDate date) throws ApiException, IOException;
 
     /**
-     * @param  date  Required parameter: <testing>
+     * @param  date  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> dateAsync(
             final LocalDate date);
 
     /**
-     * @param  datetimes  Required parameter: <testing>
+     * @param  datetimes  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -86,14 +86,14 @@ public interface QueryParamController {
             final List<LocalDateTime> datetimes) throws ApiException, IOException;
 
     /**
-     * @param  datetimes  Required parameter: <testing>
+     * @param  datetimes  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> unixDateTimeArrayAsync(
             final List<LocalDateTime> datetimes);
 
     /**
-     * @param  datetime  Required parameter: <testing>
+     * @param  datetime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -102,14 +102,14 @@ public interface QueryParamController {
             final LocalDateTime datetime) throws ApiException, IOException;
 
     /**
-     * @param  datetime  Required parameter: <testing>
+     * @param  datetime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> unixDateTimeAsync(
             final LocalDateTime datetime);
 
     /**
-     * @param  datetime  Required parameter: <testing>
+     * @param  datetime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -118,14 +118,14 @@ public interface QueryParamController {
             final LocalDateTime datetime) throws ApiException, IOException;
 
     /**
-     * @param  datetime  Required parameter: <testing>
+     * @param  datetime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> rfc1123DateTimeAsync(
             final LocalDateTime datetime);
 
     /**
-     * @param  datetimes  Required parameter: <testing>
+     * @param  datetimes  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -134,14 +134,14 @@ public interface QueryParamController {
             final List<LocalDateTime> datetimes) throws ApiException, IOException;
 
     /**
-     * @param  datetimes  Required parameter: <testing>
+     * @param  datetimes  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> rfc1123DateTimeArrayAsync(
             final List<LocalDateTime> datetimes);
 
     /**
-     * @param  datetimes  Required parameter: <testing>
+     * @param  datetimes  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -150,15 +150,15 @@ public interface QueryParamController {
             final List<LocalDateTime> datetimes) throws ApiException, IOException;
 
     /**
-     * @param  datetimes  Required parameter: <testing>
+     * @param  datetimes  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> rfc3339DateTimeArrayAsync(
             final List<LocalDateTime> datetimes);
 
     /**
-     * <testing>.
-     * @param  datetime  Required parameter: <testing>
+     * <testing> <testing>.
+     * @param  datetime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -167,8 +167,8 @@ public interface QueryParamController {
             final LocalDateTime datetime) throws ApiException, IOException;
 
     /**
-     * <testing>.
-     * @param  datetime  Required parameter: <testing>
+     * <testing> <testing>.
+     * @param  datetime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> rfc3339DateTimeAsync(
@@ -187,7 +187,7 @@ public interface QueryParamController {
     CompletableFuture<ServerResponse> noParamsAsync();
 
     /**
-     * @param  string  Required parameter: <testing>
+     * @param  string  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -196,14 +196,14 @@ public interface QueryParamController {
             final String string) throws ApiException, IOException;
 
     /**
-     * @param  string  Required parameter: <testing>
+     * @param  string  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> stringParamAsync(
             final String string);
 
     /**
-     * @param  url  Required parameter: <testing>
+     * @param  url  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -212,14 +212,14 @@ public interface QueryParamController {
             final String url) throws ApiException, IOException;
 
     /**
-     * @param  url  Required parameter: <testing>
+     * @param  url  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> urlParamAsync(
             final String url);
 
     /**
-     * @param  integers  Required parameter: <testing>
+     * @param  integers  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -228,14 +228,14 @@ public interface QueryParamController {
             final List<Integer> integers) throws ApiException, IOException;
 
     /**
-     * @param  integers  Required parameter: <testing>
+     * @param  integers  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> numberArrayAsync(
             final List<Integer> integers);
 
     /**
-     * @param  strings  Required parameter: <testing>
+     * @param  strings  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -244,16 +244,16 @@ public interface QueryParamController {
             final List<String> strings) throws ApiException, IOException;
 
     /**
-     * @param  strings  Required parameter: <testing>
+     * @param  strings  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> stringArrayAsync(
             final List<String> strings);
 
     /**
-     * @param  mBoolean  Required parameter: <testing>
-     * @param  number  Required parameter: <testing>
-     * @param  string  Required parameter: <testing>
+     * @param  mBoolean  Required parameter: <testing> <testing>
+     * @param  number  Required parameter: <testing> <testing>
+     * @param  string  Required parameter: <testing> <testing>
      * @param    queryParameters    Additional optional query parameters are supported by this endpoint
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
@@ -266,9 +266,9 @@ public interface QueryParamController {
             final Map<String, Object> queryParameters) throws ApiException, IOException;
 
     /**
-     * @param  mBoolean  Required parameter: <testing>
-     * @param  number  Required parameter: <testing>
-     * @param  string  Required parameter: <testing>
+     * @param  mBoolean  Required parameter: <testing> <testing>
+     * @param  number  Required parameter: <testing> <testing>
+     * @param  string  Required parameter: <testing> <testing>
      * @param    queryParameters    Additional optional query parameters are supported by this endpoint
      * @return    Returns the ServerResponse response from the API call
      */
@@ -279,7 +279,7 @@ public interface QueryParamController {
             final Map<String, Object> queryParameters);
 
     /**
-     * @param  days  Required parameter: <testing>
+     * @param  days  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -288,17 +288,17 @@ public interface QueryParamController {
             final List<Days> days) throws ApiException, IOException;
 
     /**
-     * @param  days  Required parameter: <testing>
+     * @param  days  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> stringEnumArrayAsync(
             final List<Days> days);
 
     /**
-     * @param  number  Required parameter: <testing>
-     * @param  precision  Required parameter: <testing>
-     * @param  string  Required parameter: <testing>
-     * @param  url  Required parameter: <testing>
+     * @param  number  Required parameter: <testing> <testing>
+     * @param  precision  Required parameter: <testing> <testing>
+     * @param  string  Required parameter: <testing> <testing>
+     * @param  url  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -310,10 +310,10 @@ public interface QueryParamController {
             final String url) throws ApiException, IOException;
 
     /**
-     * @param  number  Required parameter: <testing>
-     * @param  precision  Required parameter: <testing>
-     * @param  string  Required parameter: <testing>
-     * @param  url  Required parameter: <testing>
+     * @param  number  Required parameter: <testing> <testing>
+     * @param  precision  Required parameter: <testing> <testing>
+     * @param  string  Required parameter: <testing> <testing>
+     * @param  url  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> multipleParamsAsync(
@@ -323,7 +323,7 @@ public interface QueryParamController {
             final String url);
 
     /**
-     * @param  suites  Required parameter: <testing>
+     * @param  suites  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -332,7 +332,7 @@ public interface QueryParamController {
             final List<SuiteCode> suites) throws ApiException, IOException;
 
     /**
-     * @param  suites  Required parameter: <testing>
+     * @param  suites  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> integerEnumArrayAsync(

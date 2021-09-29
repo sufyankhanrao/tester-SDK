@@ -19,8 +19,8 @@ import localhost3000.models.EchoResponse;
  */
 public interface EchoController {
     /**
-     * Echo's back the request.
-     * @param  input  Required parameter: <testing>
+     * <testing> Echo's back the request.
+     * @param  input  Required parameter: <testing> <testing>
      * @return    Returns the DynamicResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -29,16 +29,16 @@ public interface EchoController {
             final Object input) throws ApiException, IOException;
 
     /**
-     * Echo's back the request.
-     * @param  input  Required parameter: <testing>
+     * <testing> Echo's back the request.
+     * @param  input  Required parameter: <testing> <testing>
      * @return    Returns the DynamicResponse response from the API call
      */
     CompletableFuture<DynamicResponse> jsonEchoAsync(
             final Object input);
 
     /**
-     * Sends the request including any form params as JSON.
-     * @param  input  Required parameter: <testing>
+     * <testing> Sends the request including any form params as JSON.
+     * @param  input  Required parameter: <testing> <testing>
      * @return    Returns the DynamicResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -47,8 +47,8 @@ public interface EchoController {
             final Object input) throws ApiException, IOException;
 
     /**
-     * Sends the request including any form params as JSON.
-     * @param  input  Required parameter: <testing>
+     * <testing> Sends the request including any form params as JSON.
+     * @param  input  Required parameter: <testing> <testing>
      * @return    Returns the DynamicResponse response from the API call
      */
     CompletableFuture<DynamicResponse> formEchoAsync(

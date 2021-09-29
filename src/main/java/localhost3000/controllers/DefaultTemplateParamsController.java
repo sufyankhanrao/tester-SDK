@@ -54,7 +54,7 @@ public final class DefaultTemplateParamsController extends BaseController implem
     }
 
     /**
-     * @param  strings  Required parameter: <testing>
+     * @param  strings  Required parameter: <testing> <testing>
      * @return    Returns the EchoResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -69,7 +69,7 @@ public final class DefaultTemplateParamsController extends BaseController implem
     }
 
     /**
-     * @param  strings  Required parameter: <testing>
+     * @param  strings  Required parameter: <testing> <testing>
      * @return    Returns the EchoResponse response from the API call
      */
     public CompletableFuture<EchoResponse> sendStringArrayAsync(
@@ -149,7 +149,7 @@ public final class DefaultTemplateParamsController extends BaseController implem
     }
 
     /**
-     * @param  integers  Required parameter: <testing>
+     * @param  integers  Required parameter: <testing> <testing>
      * @return    Returns the EchoResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -164,7 +164,7 @@ public final class DefaultTemplateParamsController extends BaseController implem
     }
 
     /**
-     * @param  integers  Required parameter: <testing>
+     * @param  integers  Required parameter: <testing> <testing>
      * @return    Returns the EchoResponse response from the API call
      */
     public CompletableFuture<EchoResponse> sendIntegerArrayAsync(

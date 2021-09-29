@@ -104,7 +104,7 @@ public class ErrorCodesControllerTest extends BaseControllerTest {
     }
 
     /**
-     * <testing>.
+     * <testing> <testing>.
      * @throws Throwable exception if occurs.
      */
     @Test
@@ -127,7 +127,7 @@ public class ErrorCodesControllerTest extends BaseControllerTest {
     }
 
     /**
-     * <testing>.
+     * <testing> <testing>.
      * @throws Throwable exception if occurs.
      */
     @Test

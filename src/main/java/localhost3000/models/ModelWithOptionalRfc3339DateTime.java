@@ -39,7 +39,7 @@ public class ModelWithOptionalRfc3339DateTime
 
     /**
      * Getter for DateTime.
-     * <testing>
+     * <testing> <testing>
      * @return Returns the LocalDateTime
      */
     @JsonGetter("dateTime")
@@ -50,7 +50,7 @@ public class ModelWithOptionalRfc3339DateTime
 
     /**
      * Setter for DateTime.
-     * <testing>
+     * <testing> <testing>
      * @param dateTime Value for LocalDateTime
      */
     @JsonSetter("dateTime")

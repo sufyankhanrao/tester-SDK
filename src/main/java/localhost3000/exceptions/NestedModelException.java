@@ -33,7 +33,7 @@ public class NestedModelException
 
     /**
      * Getter for ServerMessage.
-     * <testing>
+     * <testing> <testing>
      * @return Returns the String
      */
     @JsonGetter("ServerMessage")
@@ -43,7 +43,7 @@ public class NestedModelException
 
     /**
      * Setter for ServerMessage.
-     * <testing>
+     * <testing> <testing>
      * @param serverMessage Value for String
      */
     @JsonSetter("ServerMessage")
@@ -53,7 +53,7 @@ public class NestedModelException
 
     /**
      * Getter for ServerCode.
-     * <testing>
+     * <testing> <testing>
      * @return Returns the String
      */
     @JsonGetter("ServerCode")
@@ -63,7 +63,7 @@ public class NestedModelException
 
     /**
      * Setter for ServerCode.
-     * <testing>
+     * <testing> <testing>
      * @param serverCode Value for String
      */
     @JsonSetter("ServerCode")
@@ -73,7 +73,7 @@ public class NestedModelException
 
     /**
      * Getter for Model.
-     * <testing>
+     * <testing> <testing>
      * @return Returns the Validate
      */
     @JsonGetter("model")
@@ -83,7 +83,7 @@ public class NestedModelException
 
     /**
      * Setter for Model.
-     * <testing>
+     * <testing> <testing>
      * @param model Value for Validate
      */
     @JsonSetter("model")

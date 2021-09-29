@@ -54,8 +54,8 @@ public final class DefaultEchoController extends BaseController implements EchoC
     }
 
     /**
-     * Echo's back the request.
-     * @param  input  Required parameter: <testing>
+     * <testing> Echo's back the request.
+     * @param  input  Required parameter: <testing> <testing>
      * @return    Returns the DynamicResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -70,8 +70,8 @@ public final class DefaultEchoController extends BaseController implements EchoC
     }
 
     /**
-     * Echo's back the request.
-     * @param  input  Required parameter: <testing>
+     * <testing> Echo's back the request.
+     * @param  input  Required parameter: <testing> <testing>
      * @return    Returns the DynamicResponse response from the API call
      */
     public CompletableFuture<DynamicResponse> jsonEchoAsync(
@@ -150,8 +150,8 @@ public final class DefaultEchoController extends BaseController implements EchoC
     }
 
     /**
-     * Sends the request including any form params as JSON.
-     * @param  input  Required parameter: <testing>
+     * <testing> Sends the request including any form params as JSON.
+     * @param  input  Required parameter: <testing> <testing>
      * @return    Returns the DynamicResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -166,8 +166,8 @@ public final class DefaultEchoController extends BaseController implements EchoC
     }
 
     /**
-     * Sends the request including any form params as JSON.
-     * @param  input  Required parameter: <testing>
+     * <testing> Sends the request including any form params as JSON.
+     * @param  input  Required parameter: <testing> <testing>
      * @return    Returns the DynamicResponse response from the API call
      */
     public CompletableFuture<DynamicResponse> formEchoAsync(

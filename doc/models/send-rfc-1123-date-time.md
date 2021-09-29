@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description | Getter | Setter |
 |  --- | --- | --- | --- | --- | --- |
-| `DateTime` | [`ModelWithOptionalRfc1123DateTime`](/doc/models/model-with-optional-rfc-1123-date-time.md) | Optional | <testing><br> | ModelWithOptionalRfc1123DateTime getDateTime() | setDateTime(ModelWithOptionalRfc1123DateTime dateTime) |
+| `DateTime` | [`ModelWithOptionalRfc1123DateTime`](/doc/models/model-with-optional-rfc-1123-date-time.md) | Optional | &lt;testing&gt; &lt;testing&gt; | ModelWithOptionalRfc1123DateTime getDateTime() | setDateTime(ModelWithOptionalRfc1123DateTime dateTime) |
 
 ## Example (as JSON)
 

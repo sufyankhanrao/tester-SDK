@@ -30,7 +30,7 @@ public class LocalTestException
 
     /**
      * Getter for SecretMessageForEndpoint.
-     * Represents the specific endpoint info
+     * <testing> Represents the specific endpoint info
      * @return Returns the String
      */
     @JsonGetter("SecretMessageForEndpoint")
@@ -40,7 +40,7 @@ public class LocalTestException
 
     /**
      * Setter for SecretMessageForEndpoint.
-     * Represents the specific endpoint info
+     * <testing> Represents the specific endpoint info
      * @param secretMessageForEndpoint Value for String
      */
     @JsonSetter("SecretMessageForEndpoint")

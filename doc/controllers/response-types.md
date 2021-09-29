@@ -817,7 +817,7 @@ responseTypesController.getPrecisionAsync().thenAccept(result -> {
 
 # Get Binary
 
-gets a binary object
+&lt;testing&gt; gets a binary object
 
 ```java
 CompletableFuture<InputStream> getBinaryAsync()
@@ -841,7 +841,7 @@ responseTypesController.getBinaryAsync().thenAccept(result -> {
 
 # Get Integer
 
-Gets a integer response
+&lt;testing&gt; Gets a integer response
 
 ```java
 CompletableFuture<Integer> getIntegerAsync()
@@ -865,7 +865,7 @@ responseTypesController.getIntegerAsync().thenAccept(result -> {
 
 # Get Integer Array
 
-Get an array of integers.
+&lt;testing&gt; Get an array of integers.
 
 ```java
 CompletableFuture<List<Integer>> getIntegerArrayAsync()

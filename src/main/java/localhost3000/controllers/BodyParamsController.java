@@ -43,7 +43,7 @@ import localhost3000.models.Validate;
  */
 public interface BodyParamsController {
     /**
-     * @param  textString  Required parameter: <testing>
+     * @param  textString  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -52,14 +52,14 @@ public interface BodyParamsController {
             final String textString) throws ApiException, IOException;
 
     /**
-     * @param  textString  Required parameter: <testing>
+     * @param  textString  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendDeletePlainTextAsync(
             final String textString);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -68,14 +68,14 @@ public interface BodyParamsController {
             final DeleteBody body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendDeleteBodyAsync(
             final DeleteBody body);
 
     /**
-     * @param  dates  Required parameter: <testing>
+     * @param  dates  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -84,14 +84,14 @@ public interface BodyParamsController {
             final List<LocalDate> dates) throws ApiException, IOException;
 
     /**
-     * @param  dates  Required parameter: <testing>
+     * @param  dates  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendDateArrayAsync(
             final List<LocalDate> dates);
 
     /**
-     * @param  date  Required parameter: <testing>
+     * @param  date  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -100,14 +100,14 @@ public interface BodyParamsController {
             final LocalDate date) throws ApiException, IOException;
 
     /**
-     * @param  date  Required parameter: <testing>
+     * @param  date  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendDateAsync(
             final LocalDate date);
 
     /**
-     * @param  datetime  Required parameter: <testing>
+     * @param  datetime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -116,14 +116,14 @@ public interface BodyParamsController {
             final LocalDateTime datetime) throws ApiException, IOException;
 
     /**
-     * @param  datetime  Required parameter: <testing>
+     * @param  datetime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendUnixDateTimeAsync(
             final LocalDateTime datetime);
 
     /**
-     * @param  datetime  Required parameter: <testing>
+     * @param  datetime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -132,14 +132,14 @@ public interface BodyParamsController {
             final LocalDateTime datetime) throws ApiException, IOException;
 
     /**
-     * @param  datetime  Required parameter: <testing>
+     * @param  datetime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendRfc1123DateTimeAsync(
             final LocalDateTime datetime);
 
     /**
-     * @param  datetime  Required parameter: <testing>
+     * @param  datetime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -148,14 +148,14 @@ public interface BodyParamsController {
             final LocalDateTime datetime) throws ApiException, IOException;
 
     /**
-     * @param  datetime  Required parameter: <testing>
+     * @param  datetime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendRfc3339DateTimeAsync(
             final LocalDateTime datetime);
 
     /**
-     * @param  datetimes  Required parameter: <testing>
+     * @param  datetimes  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -164,14 +164,14 @@ public interface BodyParamsController {
             final List<LocalDateTime> datetimes) throws ApiException, IOException;
 
     /**
-     * @param  datetimes  Required parameter: <testing>
+     * @param  datetimes  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendUnixDateTimeArrayAsync(
             final List<LocalDateTime> datetimes);
 
     /**
-     * @param  datetimes  Required parameter: <testing>
+     * @param  datetimes  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -180,14 +180,14 @@ public interface BodyParamsController {
             final List<LocalDateTime> datetimes) throws ApiException, IOException;
 
     /**
-     * @param  datetimes  Required parameter: <testing>
+     * @param  datetimes  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendRfc1123DateTimeArrayAsync(
             final List<LocalDateTime> datetimes);
 
     /**
-     * @param  datetimes  Required parameter: <testing>
+     * @param  datetimes  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -196,15 +196,15 @@ public interface BodyParamsController {
             final List<LocalDateTime> datetimes) throws ApiException, IOException;
 
     /**
-     * @param  datetimes  Required parameter: <testing>
+     * @param  datetimes  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendRfc3339DateTimeArrayAsync(
             final List<LocalDateTime> datetimes);
 
     /**
-     * sends a string body param.
-     * @param  sarray  Required parameter: <testing>
+     * <testing> sends a string body param.
+     * @param  sarray  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -213,15 +213,15 @@ public interface BodyParamsController {
             final List<String> sarray) throws ApiException, IOException;
 
     /**
-     * sends a string body param.
-     * @param  sarray  Required parameter: <testing>
+     * <testing> sends a string body param.
+     * @param  sarray  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendStringArrayAsync(
             final List<String> sarray);
 
     /**
-     * @param  value  Required parameter: <testing>
+     * @param  value  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -230,14 +230,14 @@ public interface BodyParamsController {
             final String value) throws ApiException, IOException;
 
     /**
-     * @param  value  Required parameter: <testing>
+     * @param  value  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> updateStringAsync(
             final String value);
 
     /**
-     * @param  integers  Required parameter: <testing>
+     * @param  integers  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -246,15 +246,15 @@ public interface BodyParamsController {
             final List<Integer> integers) throws ApiException, IOException;
 
     /**
-     * @param  integers  Required parameter: <testing>
+     * @param  integers  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendIntegerArrayAsync(
             final List<Integer> integers);
 
     /**
-     * @param  field  Required parameter: <testing>
-     * @param  name  Required parameter: <testing>
+     * @param  field  Required parameter: <testing> <testing>
+     * @param  name  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -264,8 +264,8 @@ public interface BodyParamsController {
             final String name) throws ApiException, IOException;
 
     /**
-     * @param  field  Required parameter: <testing>
-     * @param  name  Required parameter: <testing>
+     * @param  field  Required parameter: <testing> <testing>
+     * @param  name  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> wrapBodyInObjectAsync(
@@ -273,7 +273,7 @@ public interface BodyParamsController {
             final String name);
 
     /**
-     * @param  model  Required parameter: <testing>
+     * @param  model  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -282,15 +282,15 @@ public interface BodyParamsController {
             final AdditionalModelParameters model) throws ApiException, IOException;
 
     /**
-     * @param  model  Required parameter: <testing>
+     * @param  model  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> additionalModelParametersAsync(
             final AdditionalModelParameters model);
 
     /**
-     * @param  model  Required parameter: <testing>
-     * @param  option  Optional parameter: <testing>
+     * @param  model  Required parameter: <testing> <testing>
+     * @param  option  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -300,8 +300,8 @@ public interface BodyParamsController {
             final String option) throws ApiException, IOException;
 
     /**
-     * @param  model  Required parameter: <testing>
-     * @param  option  Optional parameter: <testing>
+     * @param  model  Required parameter: <testing> <testing>
+     * @param  option  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> validateRequiredParameterAsync(
@@ -309,7 +309,8 @@ public interface BodyParamsController {
             final String option);
 
     /**
-     * @param  model  Required parameter: <testing>
+     * <testing>.
+     * @param  model  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -318,14 +319,15 @@ public interface BodyParamsController {
             final AdditionalModelParameters model) throws ApiException, IOException;
 
     /**
-     * @param  model  Required parameter: <testing>
+     * <testing>.
+     * @param  model  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> additionalModelParameters1Async(
             final AdditionalModelParameters model);
 
     /**
-     * @param  model  Required parameter: <testing>
+     * @param  model  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -334,14 +336,14 @@ public interface BodyParamsController {
             final Employee model) throws ApiException, IOException;
 
     /**
-     * @param  model  Required parameter: <testing>
+     * @param  model  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendModelAsync(
             final Employee model);
 
     /**
-     * @param  models  Required parameter: <testing>
+     * @param  models  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -350,14 +352,14 @@ public interface BodyParamsController {
             final List<Employee> models) throws ApiException, IOException;
 
     /**
-     * @param  models  Required parameter: <testing>
+     * @param  models  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendModelArrayAsync(
             final List<Employee> models);
 
     /**
-     * @param  dynamic  Required parameter: <testing>
+     * @param  dynamic  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -366,14 +368,14 @@ public interface BodyParamsController {
             final Object dynamic) throws ApiException, IOException;
 
     /**
-     * @param  dynamic  Required parameter: <testing>
+     * @param  dynamic  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendDynamicAsync(
             final Object dynamic);
 
     /**
-     * @param  value  Required parameter: <testing>
+     * @param  value  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -382,14 +384,14 @@ public interface BodyParamsController {
             final String value) throws ApiException, IOException;
 
     /**
-     * @param  value  Required parameter: <testing>
+     * @param  value  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendStringAsync(
             final String value);
 
     /**
-     * @param  days  Required parameter: <testing>
+     * @param  days  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -398,14 +400,14 @@ public interface BodyParamsController {
             final List<Days> days) throws ApiException, IOException;
 
     /**
-     * @param  days  Required parameter: <testing>
+     * @param  days  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendStringEnumArrayAsync(
             final List<Days> days);
 
     /**
-     * @param  suites  Required parameter: <testing>
+     * @param  suites  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -414,14 +416,14 @@ public interface BodyParamsController {
             final List<SuiteCode> suites) throws ApiException, IOException;
 
     /**
-     * @param  suites  Required parameter: <testing>
+     * @param  suites  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendIntegerEnumArrayAsync(
             final List<SuiteCode> suites);
 
     /**
-     * @param  model  Required parameter: <testing>
+     * @param  model  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -430,14 +432,14 @@ public interface BodyParamsController {
             final Employee model) throws ApiException, IOException;
 
     /**
-     * @param  model  Required parameter: <testing>
+     * @param  model  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> updateModelAsync(
             final Employee model);
 
     /**
-     * @param  model  Required parameter: <testing>
+     * @param  model  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -446,14 +448,14 @@ public interface BodyParamsController {
             final Employee model) throws ApiException, IOException;
 
     /**
-     * @param  model  Required parameter: <testing>
+     * @param  model  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendDeleteBodyWithModelAsync(
             final Employee model);
 
     /**
-     * @param  models  Required parameter: <testing>
+     * @param  models  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -462,14 +464,14 @@ public interface BodyParamsController {
             final List<Employee> models) throws ApiException, IOException;
 
     /**
-     * @param  models  Required parameter: <testing>
+     * @param  models  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendDeleteBodyWithModelArrayAsync(
             final List<Employee> models);
 
     /**
-     * @param  models  Required parameter: <testing>
+     * @param  models  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -478,14 +480,14 @@ public interface BodyParamsController {
             final List<Employee> models) throws ApiException, IOException;
 
     /**
-     * @param  models  Required parameter: <testing>
+     * @param  models  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> updateModelArrayAsync(
             final List<Employee> models);
 
     /**
-     * @param  value  Required parameter: <testing>
+     * @param  value  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -494,14 +496,14 @@ public interface BodyParamsController {
             final String value) throws ApiException, IOException;
 
     /**
-     * @param  value  Required parameter: <testing>
+     * @param  value  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> updateString1Async(
             final String value);
 
     /**
-     * @param  strings  Required parameter: <testing>
+     * @param  strings  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -510,14 +512,14 @@ public interface BodyParamsController {
             final List<String> strings) throws ApiException, IOException;
 
     /**
-     * @param  strings  Required parameter: <testing>
+     * @param  strings  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> updateStringArrayAsync(
             final List<String> strings);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -526,14 +528,14 @@ public interface BodyParamsController {
             final TestNstringEncoding body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendStringWithNewLineAsync(
             final TestNstringEncoding body);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -542,14 +544,14 @@ public interface BodyParamsController {
             final TestRstringEncoding body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendStringWithRAsync(
             final TestRstringEncoding body);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -558,14 +560,14 @@ public interface BodyParamsController {
             final TestRNstringEncoding body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendStringInBodyWithRNAsync(
             final TestRNstringEncoding body);
 
     /**
-     * @param  dateTime  Optional parameter: <testing>
+     * @param  dateTime  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -574,14 +576,14 @@ public interface BodyParamsController {
             final LocalDateTime dateTime) throws ApiException, IOException;
 
     /**
-     * @param  dateTime  Optional parameter: <testing>
+     * @param  dateTime  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendOptionalUnixDateTimeInBodyAsync(
             final LocalDateTime dateTime);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -590,14 +592,14 @@ public interface BodyParamsController {
             final LocalDateTime body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendOptionalRfc1123InBodyAsync(
             final LocalDateTime body);
 
     /**
-     * @param  body  Optional parameter: <testing>
+     * @param  body  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -606,14 +608,14 @@ public interface BodyParamsController {
             final LocalDateTime body) throws ApiException, IOException;
 
     /**
-     * @param  body  Optional parameter: <testing>
+     * @param  body  Optional parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendDatetimeOptionalInEndpointAsync(
             final LocalDateTime body);
 
     /**
-     * @param  dateTime  Required parameter: <testing>
+     * @param  dateTime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -622,14 +624,14 @@ public interface BodyParamsController {
             final UnixDateTime dateTime) throws ApiException, IOException;
 
     /**
-     * @param  dateTime  Required parameter: <testing>
+     * @param  dateTime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendOptionalUnixTimeStampInModelBodyAsync(
             final UnixDateTime dateTime);
 
     /**
-     * @param  dateTime  Required parameter: <testing>
+     * @param  dateTime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -638,14 +640,14 @@ public interface BodyParamsController {
             final SendUnixDateTime dateTime) throws ApiException, IOException;
 
     /**
-     * @param  dateTime  Required parameter: <testing>
+     * @param  dateTime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendOptionalUnixTimeStampInNestedModelBodyAsync(
             final SendUnixDateTime dateTime);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -654,14 +656,14 @@ public interface BodyParamsController {
             final SendRfc1123DateTime body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendRfc1123DateTimeInNestedModelAsync(
             final SendRfc1123DateTime body);
 
     /**
-     * @param  dateTime  Required parameter: <testing>
+     * @param  dateTime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -670,14 +672,14 @@ public interface BodyParamsController {
             final ModelWithOptionalRfc1123DateTime dateTime) throws ApiException, IOException;
 
     /**
-     * @param  dateTime  Required parameter: <testing>
+     * @param  dateTime  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendRfc1123DateTimeInModelAsync(
             final ModelWithOptionalRfc1123DateTime dateTime);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -686,14 +688,14 @@ public interface BodyParamsController {
             final ModelWithOptionalRfc3339DateTime body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendOptionalDatetimeInModelAsync(
             final ModelWithOptionalRfc3339DateTime body);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -702,14 +704,14 @@ public interface BodyParamsController {
             final SendRfc339DateTime body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendRfc339DateTimeInNestedModelsAsync(
             final SendRfc339DateTime body);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -718,14 +720,14 @@ public interface BodyParamsController {
             final UuidAsOptional body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> uuidAsOptionalAsync(
             final UuidAsOptional body);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -734,14 +736,14 @@ public interface BodyParamsController {
             final BooleanAsOptional body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> booleanAsOptionalAsync(
             final BooleanAsOptional body);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -750,14 +752,14 @@ public interface BodyParamsController {
             final DateAsOptional body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> dateAsOptionalAsync(
             final DateAsOptional body);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -766,14 +768,14 @@ public interface BodyParamsController {
             final DynamicAsOptional body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> dynamicAsOptionalAsync(
             final DynamicAsOptional body);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -782,14 +784,14 @@ public interface BodyParamsController {
             final StringAsOptional body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> stringAsOptionalAsync(
             final StringAsOptional body);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -798,14 +800,14 @@ public interface BodyParamsController {
             final PrecisionAsOptional body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> precisionAsOptionalAsync(
             final PrecisionAsOptional body);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -814,14 +816,14 @@ public interface BodyParamsController {
             final LongAsOptional body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> longAsOptionalAsync(
             final LongAsOptional body);
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -830,7 +832,7 @@ public interface BodyParamsController {
             final NumberAsOptional body) throws ApiException, IOException;
 
     /**
-     * @param  body  Required parameter: <testing>
+     * @param  body  Required parameter: <testing> <testing>
      * @return    Returns the ServerResponse response from the API call
      */
     CompletableFuture<ServerResponse> sendNumberAsOptionalAsync(

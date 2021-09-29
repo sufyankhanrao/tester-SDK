@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Testing various
+&lt;testing&gt; Testing various
 api
 features
 
@@ -91,8 +91,8 @@ The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
-| `port` | `String` | <testing><br>*Default*: `"80"` |
-| `suites` | `SuiteCode` | <testing><br>*Default*: `SuiteCode.HEARTS` |
+| `port` | `String` | <testing> <testing><br>*Default*: `"80"` |
+| `suites` | `SuiteCode` | &lt;testing&gt; &lt;testing&gt;<br>*Default*: `SuiteCode.HEARTS` |
 | `environment` | Environment | The API environment. <br> **Default: `Environment.TESTING`** |
 | `httpClientConfig` | `ReadonlyHttpClientConfiguration` | Http Client Configuration instance.<br>* See available [builder methods here](/doc/http-client-configuration-builder.md). |
 

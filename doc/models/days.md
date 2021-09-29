@@ -1,7 +1,7 @@
 
 # Days
 
-A string enum representing days of the week
+&lt;testing&gt; A string enum representing days of the week
 
 ## Enumeration
 
@@ -11,11 +11,11 @@ A string enum representing days of the week
 
 | Name | Description |
 |  --- | --- |
-| `Sunday` | <testing><br> |
-| `Monday` | <testing><br> |
-| `Tuesday` | <testing><br> |
-| `Wednesday` | <testing><br> |
-| `Thursday` | <testing><br> |
-| `FriDay` | <testing><br> |
-| `Saturday` | <testing><br> |
+| `Sunday` | &lt;testing&gt; &lt;testing&gt; |
+| `Monday` | &lt;testing&gt; &lt;testing&gt; |
+| `Tuesday` | &lt;testing&gt; &lt;testing&gt; |
+| `Wednesday` | &lt;testing&gt; &lt;testing&gt; |
+| `Thursday` | &lt;testing&gt; &lt;testing&gt; |
+| `FriDay` | &lt;testing&gt; &lt;testing&gt; |
+| `Saturday` | &lt;testing&gt; &lt;testing&gt; |
 

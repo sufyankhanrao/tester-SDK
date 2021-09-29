@@ -45,7 +45,7 @@ public class ServerResponse
 
     /**
      * Getter for Passed.
-     * <testing>
+     * <testing> <testing>
      * @return Returns the boolean
      */
     @JsonGetter("passed")
@@ -55,7 +55,7 @@ public class ServerResponse
 
     /**
      * Setter for Passed.
-     * <testing>
+     * <testing> <testing>
      * @param passed Value for boolean
      */
     @JsonSetter("passed")
@@ -65,7 +65,7 @@ public class ServerResponse
 
     /**
      * Getter for Message.
-     * <testing>
+     * <testing> <testing>
      * @return Returns the String
      */
     @JsonGetter("Message")
@@ -75,7 +75,7 @@ public class ServerResponse
 
     /**
      * Setter for Message.
-     * <testing>
+     * <testing> <testing>
      * @param message Value for String
      */
     @JsonSetter("Message")
@@ -85,7 +85,7 @@ public class ServerResponse
 
     /**
      * Getter for Input.
-     * <testing>
+     * <testing> <testing>
      * @return Returns the Map of String, Object
      */
     @JsonGetter("input")
@@ -95,7 +95,7 @@ public class ServerResponse
 
     /**
      * Setter for Input.
-     * <testing>
+     * <testing> <testing>
      * @param input Value for Map of String, Object
      */
     @JsonSetter("input")

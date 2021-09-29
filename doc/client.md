@@ -5,8 +5,8 @@ The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
-| `port` | `String` | <testing><br>*Default*: `"80"` |
-| `suites` | `SuiteCode` | <testing><br>*Default*: `SuiteCode.HEARTS` |
+| `port` | `String` | &lt;testing&gt; &lt;testing&gt;<br>*Default*: `"80"` |
+| `suites` | `SuiteCode` | &lt;testing&gt; &lt;testing&gt;<br>*Default*: `SuiteCode.HEARTS` |
 | `environment` | Environment | The API environment. <br> **Default: `Environment.TESTING`** |
 | `httpClientConfig` | `ReadonlyHttpClientConfiguration` | Http Client Configuration instance.<br>* See available [builder methods here](/doc/http-client-configuration-builder.md). |
 
@@ -46,8 +46,8 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 |  --- | --- | --- |
 | `shutdown()` | Shutdown the underlying HttpClient instance. | `void` |
 | `getEnvironment()` | Current API environment. | `Environment` |
-| `getPort()` | <testing><br> | `String` |
-| `getSuites()` | <testing><br> | `SuiteCode` |
+| `getPort()` | <testing> <testing> | `String` |
+| `getSuites()` | <testing> <testing> | `SuiteCode` |
 | `getHttpClient()` | The HTTP Client instance to use for making HTTP requests. | `HttpClient` |
 | `getHttpClientConfig()` | Http Client Configuration instance. | `ReadonlyHttpClientConfiguration` |
 | `getBaseUri(Server server)` | Get base URI by current environment | `String` |

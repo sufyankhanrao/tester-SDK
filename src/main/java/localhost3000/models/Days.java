@@ -15,37 +15,37 @@ import java.util.TreeMap;
  */
 public enum Days {
     /**
-     * <testing>
+     * <testing> <testing>
      */
     SUNDAY,
 
     /**
-     * <testing>
+     * <testing> <testing>
      */
     MONDAY,
 
     /**
-     * <testing>
+     * <testing> <testing>
      */
     TUESDAY,
 
     /**
-     * <testing>
+     * <testing> <testing>
      */
     WEDNESDAY_,
 
     /**
-     * <testing>
+     * <testing> <testing>
      */
     THURSDAY,
 
     /**
-     * <testing>
+     * <testing> <testing>
      */
     FRI_DAY,
 
     /**
-     * <testing>
+     * <testing> <testing>
      */
     SATURDAY;
 

@@ -261,7 +261,7 @@ public interface ResponseTypesController {
     CompletableFuture<Double> getPrecisionAsync();
 
     /**
-     * gets a binary object.
+     * <testing> gets a binary object.
      * @return    Returns the InputStream response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -269,13 +269,13 @@ public interface ResponseTypesController {
     InputStream getBinary() throws ApiException, IOException;
 
     /**
-     * gets a binary object.
+     * <testing> gets a binary object.
      * @return    Returns the InputStream response from the API call
      */
     CompletableFuture<InputStream> getBinaryAsync();
 
     /**
-     * Gets a integer response.
+     * <testing> Gets a integer response.
      * @return    Returns the Integer response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -283,13 +283,13 @@ public interface ResponseTypesController {
     Integer getInteger() throws ApiException, IOException;
 
     /**
-     * Gets a integer response.
+     * <testing> Gets a integer response.
      * @return    Returns the Integer response from the API call
      */
     CompletableFuture<Integer> getIntegerAsync();
 
     /**
-     * Get an array of integers.
+     * <testing> Get an array of integers.
      * @return    Returns the List of Integer response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -297,7 +297,7 @@ public interface ResponseTypesController {
     List<Integer> getIntegerArray() throws ApiException, IOException;
 
     /**
-     * Get an array of integers.
+     * <testing> Get an array of integers.
      * @return    Returns the List of Integer response from the API call
      */
     CompletableFuture<List<Integer>> getIntegerArrayAsync();

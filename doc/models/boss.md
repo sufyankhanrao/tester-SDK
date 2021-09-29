@@ -1,7 +1,7 @@
 
 # Boss
 
-Testing circular reference.
+&lt;testing&gt; Testing circular reference.
 
 ## Structure
 
@@ -15,8 +15,8 @@ Testing circular reference.
 
 | Name | Type | Tags | Description | Getter | Setter |
 |  --- | --- | --- | --- | --- | --- |
-| `PromotedAt` | `LocalDateTime` | Required | <testing><br> | LocalDateTime getPromotedAt() | setPromotedAt(LocalDateTime promotedAt) |
-| `Assistant` | [`Employee`](/doc/models/employee.md) | Required | <testing><br> | Employee getAssistant() | setAssistant(Employee assistant) |
+| `PromotedAt` | `LocalDateTime` | Required | &lt;testing&gt; &lt;testing&gt; | LocalDateTime getPromotedAt() | setPromotedAt(LocalDateTime promotedAt) |
+| `Assistant` | [`Employee`](/doc/models/employee.md) | Required | &lt;testing&gt; &lt;testing&gt; | Employee getAssistant() | setAssistant(Employee assistant) |
 
 ## Example (as JSON)
 

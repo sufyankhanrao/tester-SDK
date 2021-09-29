@@ -9,8 +9,8 @@
 
 | Name | Type | Tags | Description | Getter | Setter |
 |  --- | --- | --- | --- | --- | --- |
-| `Field` | `String` | Required | <testing><br> | String getField() | setField(String field) |
-| `Name` | `String` | Required | <testing><br> | String getName() | setName(String name) |
+| `Field` | `String` | Required | &lt;testing&gt; &lt;testing&gt; | String getField() | setField(String field) |
+| `Name` | `String` | Required | &lt;testing&gt; &lt;testing&gt; | String getName() | setName(String name) |
 
 ## Example (as JSON)
 

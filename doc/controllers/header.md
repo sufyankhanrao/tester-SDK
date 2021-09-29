@@ -11,7 +11,7 @@ HeaderController headerController = client.getHeaderController();
 
 # Send Headers
 
-Sends a single header params
+&lt;testing&gt; Sends a single header params
 
 ```java
 CompletableFuture<ServerResponse> sendHeadersAsync(
@@ -23,8 +23,8 @@ CompletableFuture<ServerResponse> sendHeadersAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `customHeader` | `String` | Header, Required | <testing><br> |
-| `value` | `String` | Form, Required | Represents the value of the custom header |
+| `customHeader` | `String` | Header, Required | &lt;testing&gt; &lt;testing&gt; |
+| `value` | `String` | Form, Required | &lt;testing&gt; Represents the value of the custom header |
 
 ## Response Type
 

@@ -31,7 +31,7 @@ public class GlobalTestException
 
     /**
      * Getter for ServerMessage.
-     * Represents the server's exception message
+     * <testing> Represents the server's exception message
      * @return Returns the String
      */
     @JsonGetter("ServerMessage")
@@ -41,7 +41,7 @@ public class GlobalTestException
 
     /**
      * Setter for ServerMessage.
-     * Represents the server's exception message
+     * <testing> Represents the server's exception message
      * @param serverMessage Value for String
      */
     @JsonSetter("ServerMessage")
@@ -51,7 +51,7 @@ public class GlobalTestException
 
     /**
      * Getter for ServerCode.
-     * Represents the server's error code
+     * <testing> Represents the server's error code
      * @return Returns the int
      */
     @JsonGetter("ServerCode")
@@ -61,7 +61,7 @@ public class GlobalTestException
 
     /**
      * Setter for ServerCode.
-     * Represents the server's error code
+     * <testing> Represents the server's error code
      * @param serverCode Value for int
      */
     @JsonSetter("ServerCode")

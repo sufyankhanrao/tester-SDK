@@ -1,7 +1,7 @@
 
 # Query Parameter
 
-Query parameter key value pair echoed back from the server.
+&lt;testing&gt; Query parameter key value pair echoed back from the server.
 
 ## Structure
 
@@ -11,7 +11,7 @@ Query parameter key value pair echoed back from the server.
 
 | Name | Type | Tags | Description | Getter | Setter |
 |  --- | --- | --- | --- | --- | --- |
-| `Key` | `String` | Optional | <testing><br> | String getKey() | setKey(String key) |
+| `Key` | `String` | Optional | &lt;testing&gt; &lt;testing&gt; | String getKey() | setKey(String key) |
 
 ## Example (as JSON)
 

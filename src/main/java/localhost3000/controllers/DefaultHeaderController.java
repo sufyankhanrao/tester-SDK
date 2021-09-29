@@ -52,9 +52,9 @@ public final class DefaultHeaderController extends BaseController implements Hea
     }
 
     /**
-     * Sends a single header params.
-     * @param  customHeader  Required parameter: <testing>
-     * @param  value  Required parameter: Represents the value of the custom header
+     * <testing> Sends a single header params.
+     * @param  customHeader  Required parameter: <testing> <testing>
+     * @param  value  Required parameter: <testing> Represents the value of the custom header
      * @return    Returns the ServerResponse response from the API call
      * @throws    ApiException    Represents error response from the server.
      * @throws    IOException    Signals that an I/O exception of some sort has occurred.
@@ -70,9 +70,9 @@ public final class DefaultHeaderController extends BaseController implements Hea
     }
 
     /**
-     * Sends a single header params.
-     * @param  customHeader  Required parameter: <testing>
-     * @param  value  Required parameter: Represents the value of the custom header
+     * <testing> Sends a single header params.
+     * @param  customHeader  Required parameter: <testing> <testing>
+     * @param  value  Required parameter: <testing> Represents the value of the custom header
      * @return    Returns the ServerResponse response from the API call
      */
     public CompletableFuture<ServerResponse> sendHeadersAsync(

@@ -1,7 +1,7 @@
 
 # Local Test Exception
 
-To test specific local exceptions.
+&lt;testing&gt; To test specific local exceptions.
 
 ## Structure
 
@@ -15,7 +15,7 @@ To test specific local exceptions.
 
 | Name | Type | Tags | Description | Getter | Setter |
 |  --- | --- | --- | --- | --- | --- |
-| `SecretMessageForEndpoint` | `String` | Required | Represents the specific endpoint info | String getSecretMessageForEndpoint() | setSecretMessageForEndpoint(String secretMessageForEndpoint) |
+| `SecretMessageForEndpoint` | `String` | Required | &lt;testing&gt; Represents the specific endpoint info | String getSecretMessageForEndpoint() | setSecretMessageForEndpoint(String secretMessageForEndpoint) |
 
 ## Example (as JSON)
 

@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description | Getter | Setter |
 |  --- | --- | --- | --- | --- | --- |
-| `DateTime` | [`ModelWithOptionalRfc3339DateTime`](/doc/models/model-with-optional-rfc-3339-date-time.md) | Optional | <testing><br> | ModelWithOptionalRfc3339DateTime getDateTime() | setDateTime(ModelWithOptionalRfc3339DateTime dateTime) |
+| `DateTime` | [`ModelWithOptionalRfc3339DateTime`](/doc/models/model-with-optional-rfc-3339-date-time.md) | Optional | &lt;testing&gt; &lt;testing&gt; | ModelWithOptionalRfc3339DateTime getDateTime() | setDateTime(ModelWithOptionalRfc3339DateTime dateTime) |
 
 ## Example (as JSON)
 

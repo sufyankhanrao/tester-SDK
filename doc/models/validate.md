@@ -9,9 +9,9 @@
 
 | Name | Type | Tags | Description | Getter | Setter |
 |  --- | --- | --- | --- | --- | --- |
-| `Field` | `String` | Required | &lt;testing&gt; &lt;testing&gt; | String getField() | setField(String field) |
-| `Name` | `String` | Required | &lt;testing&gt; &lt;testing&gt; | String getName() | setName(String name) |
-| `Address` | `String` | Optional | &lt;testing&gt; &lt;testing&gt; | String getAddress() | setAddress(String address) |
+| `Field` | `String` | Required | <testing> <testing> | String getField() | setField(String field) |
+| `Name` | `String` | Required | <testing> <testing> | String getName() | setName(String name) |
+| `Address` | `String` | Optional | <testing> <testing> | String getAddress() | setAddress(String address) |
 
 ## Example (as JSON)
 

@@ -39,7 +39,7 @@ public class UnixDateTime
 
     /**
      * Getter for DateTime.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @return Returns the LocalDateTime
      */
     @JsonGetter("dateTime")
@@ -50,7 +50,7 @@ public class UnixDateTime
 
     /**
      * Setter for DateTime.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @param dateTime Value for LocalDateTime
      */
     @JsonSetter("dateTime")

@@ -9,12 +9,12 @@
 
 | Name | Type | Tags | Description | Getter | Setter |
 |  --- | --- | --- | --- | --- | --- |
-| `Address` | `String` | Required | &lt;testing&gt; &lt;testing&gt; | String getAddress() | setAddress(String address) |
-| `Age` | `long` | Required | &lt;testing&gt; &lt;testing&gt; | long getAge() | setAge(long age) |
-| `Birthday` | `LocalDate` | Required | &lt;testing&gt; &lt;testing&gt; | LocalDate getBirthday() | setBirthday(LocalDate birthday) |
-| `Birthtime` | `LocalDateTime` | Required | &lt;testing&gt; &lt;testing&gt; | LocalDateTime getBirthtime() | setBirthtime(LocalDateTime birthtime) |
-| `Name` | `String` | Required | &lt;testing&gt; &lt;testing&gt; | String getName() | setName(String name) |
-| `Uid` | `String` | Required | &lt;testing&gt; &lt;testing&gt; | String getUid() | setUid(String uid) |
+| `Address` | `String` | Required | <testing> <testing> | String getAddress() | setAddress(String address) |
+| `Age` | `long` | Required | <testing> <testing> | long getAge() | setAge(long age) |
+| `Birthday` | `LocalDate` | Required | <testing> <testing> | LocalDate getBirthday() | setBirthday(LocalDate birthday) |
+| `Birthtime` | `LocalDateTime` | Required | <testing> <testing> | LocalDateTime getBirthtime() | setBirthtime(LocalDateTime birthtime) |
+| `Name` | `String` | Required | <testing> <testing> | String getName() | setName(String name) |
+| `Uid` | `String` | Required | <testing> <testing> | String getUid() | setUid(String uid) |
 | `PersonType` | `String` | Optional | - | String getPersonType() | setPersonType(String personType) |
 
 ## Example (as JSON)

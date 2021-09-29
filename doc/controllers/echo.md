@@ -17,7 +17,7 @@ EchoController echoController = client.getEchoController();
 
 # Json Echo
 
-&lt;testing&gt; Echo's back the request
+<testing> Echo's back the request
 
 ```java
 CompletableFuture<DynamicResponse> jsonEchoAsync(
@@ -28,7 +28,7 @@ CompletableFuture<DynamicResponse> jsonEchoAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `input` | `Object` | Body, Required | &lt;testing&gt; &lt;testing&gt; |
+| `input` | `Object` | Body, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -50,7 +50,7 @@ echoController.jsonEchoAsync(input).thenAccept(result -> {
 
 # Form Echo
 
-&lt;testing&gt; Sends the request including any form params as JSON
+<testing> Sends the request including any form params as JSON
 
 ```java
 CompletableFuture<DynamicResponse> formEchoAsync(
@@ -61,7 +61,7 @@ CompletableFuture<DynamicResponse> formEchoAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `input` | `Object` | Form, Required | &lt;testing&gt; &lt;testing&gt; |
+| `input` | `Object` | Form, Required | <testing> <testing> |
 
 ## Response Type
 

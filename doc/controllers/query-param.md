@@ -41,7 +41,7 @@ CompletableFuture<ServerResponse> dateArrayAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `dates` | `List<LocalDate>` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `dates` | `List<LocalDate>` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -65,7 +65,7 @@ queryParamController.dateArrayAsync(dates).thenAccept(result -> {
 
 # Optional Dynamic Query Param
 
-&lt;testing&gt; get optional dynamic query parameter
+<testing> get optional dynamic query parameter
 
 ```java
 CompletableFuture<ServerResponse> optionalDynamicQueryParamAsync(
@@ -77,7 +77,7 @@ CompletableFuture<ServerResponse> optionalDynamicQueryParamAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `name` | `String` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `name` | `String` | Query, Required | <testing> <testing> |
 | `queryParameters` | `Map<String, Object>` | Optional | Pass additional query parameters. |
 
 ## Response Type
@@ -111,7 +111,7 @@ CompletableFuture<ServerResponse> dateAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `date` | `LocalDate` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `date` | `LocalDate` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -142,7 +142,7 @@ CompletableFuture<ServerResponse> unixDateTimeArrayAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `datetimes` | `List<LocalDateTime>` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `datetimes` | `List<LocalDateTime>` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -176,7 +176,7 @@ CompletableFuture<ServerResponse> unixDateTimeAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `datetime` | `LocalDateTime` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `datetime` | `LocalDateTime` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -207,7 +207,7 @@ CompletableFuture<ServerResponse> rfc1123DateTimeAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `datetime` | `LocalDateTime` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `datetime` | `LocalDateTime` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -238,7 +238,7 @@ CompletableFuture<ServerResponse> rfc1123DateTimeArrayAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `datetimes` | `List<LocalDateTime>` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `datetimes` | `List<LocalDateTime>` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -272,7 +272,7 @@ CompletableFuture<ServerResponse> rfc3339DateTimeArrayAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `datetimes` | `List<LocalDateTime>` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `datetimes` | `List<LocalDateTime>` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -297,7 +297,7 @@ queryParamController.rfc3339DateTimeArrayAsync(datetimes).thenAccept(result -> {
 
 # Rfc 3339 Date Time
 
-&lt;testing&gt; &lt;testing&gt;
+<testing> <testing>
 
 ```java
 CompletableFuture<ServerResponse> rfc3339DateTimeAsync(
@@ -308,7 +308,7 @@ CompletableFuture<ServerResponse> rfc3339DateTimeAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `datetime` | `LocalDateTime` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `datetime` | `LocalDateTime` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -361,7 +361,7 @@ CompletableFuture<ServerResponse> stringParamAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `string` | `String` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `string` | `String` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -392,7 +392,7 @@ CompletableFuture<ServerResponse> urlParamAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `url` | `String` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `url` | `String` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -423,7 +423,7 @@ CompletableFuture<ServerResponse> numberArrayAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `integers` | `List<Integer>` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `integers` | `List<Integer>` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -457,7 +457,7 @@ CompletableFuture<ServerResponse> stringArrayAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `strings` | `List<String>` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `strings` | `List<String>` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -492,9 +492,9 @@ CompletableFuture<ServerResponse> simpleQueryAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `mBoolean` | `boolean` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `number` | `int` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `string` | `String` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `mBoolean` | `boolean` | Query, Required | <testing> <testing> |
+| `number` | `int` | Query, Required | <testing> <testing> |
+| `string` | `String` | Query, Required | <testing> <testing> |
 | `queryParameters` | `Map<String, Object>` | Optional | Pass additional query parameters. |
 
 ## Response Type
@@ -530,7 +530,7 @@ CompletableFuture<ServerResponse> stringEnumArrayAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `days` | [`List<Days>`](/doc/models/days.md) | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `days` | [`List<Days>`](/doc/models/days.md) | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -567,10 +567,10 @@ CompletableFuture<ServerResponse> multipleParamsAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `number` | `int` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `precision` | `double` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `string` | `String` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `url` | `String` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `number` | `int` | Query, Required | <testing> <testing> |
+| `precision` | `double` | Query, Required | <testing> <testing> |
+| `string` | `String` | Query, Required | <testing> <testing> |
+| `url` | `String` | Query, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -604,7 +604,7 @@ CompletableFuture<ServerResponse> integerEnumArrayAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `suites` | [`List<SuiteCode>`](/doc/models/suite-code.md) | Query, Required | &lt;testing&gt; &lt;testing&gt; |
+| `suites` | [`List<SuiteCode>`](/doc/models/suite-code.md) | Query, Required | <testing> <testing> |
 
 ## Response Type
 

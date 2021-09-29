@@ -33,8 +33,8 @@ CompletableFuture<ServerResponse> sendNumberAsOptionalAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `number` | `int` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `number1` | `Integer` | Query, Optional | &lt;testing&gt; &lt;testing&gt; |
+| `number` | `int` | Query, Required | <testing> <testing> |
+| `number1` | `Integer` | Query, Optional | <testing> <testing> |
 
 ## Response Type
 
@@ -67,8 +67,8 @@ CompletableFuture<ServerResponse> sendLongAsOptionalAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `mLong` | `long` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `long1` | `Long` | Query, Optional | &lt;testing&gt; &lt;testing&gt; |
+| `mLong` | `long` | Query, Required | <testing> <testing> |
+| `long1` | `Long` | Query, Optional | <testing> <testing> |
 
 ## Response Type
 
@@ -101,8 +101,8 @@ CompletableFuture<ServerResponse> precisionAsOptionalAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `precision` | `double` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `precision1` | `Double` | Query, Optional | &lt;testing&gt; &lt;testing&gt; |
+| `precision` | `double` | Query, Required | <testing> <testing> |
+| `precision1` | `Double` | Query, Optional | <testing> <testing> |
 
 ## Response Type
 
@@ -135,8 +135,8 @@ CompletableFuture<ServerResponse> booleanAsOptionalAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `mBoolean` | `boolean` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `boolean1` | `Boolean` | Query, Optional | &lt;testing&gt; &lt;testing&gt; |
+| `mBoolean` | `boolean` | Query, Required | <testing> <testing> |
+| `boolean1` | `Boolean` | Query, Optional | <testing> <testing> |
 
 ## Response Type
 
@@ -169,8 +169,8 @@ CompletableFuture<ServerResponse> rfc1123DatetimeAsOptionalAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `dateTime` | `LocalDateTime` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `dateTime1` | `LocalDateTime` | Query, Optional | &lt;testing&gt; &lt;testing&gt; |
+| `dateTime` | `LocalDateTime` | Query, Required | <testing> <testing> |
+| `dateTime1` | `LocalDateTime` | Query, Optional | <testing> <testing> |
 
 ## Response Type
 
@@ -203,8 +203,8 @@ CompletableFuture<ServerResponse> rfc3339DatetimeAsOptionalAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `dateTime` | `LocalDateTime` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `dateTime1` | `LocalDateTime` | Query, Optional | &lt;testing&gt; &lt;testing&gt; |
+| `dateTime` | `LocalDateTime` | Query, Required | <testing> <testing> |
+| `dateTime1` | `LocalDateTime` | Query, Optional | <testing> <testing> |
 
 ## Response Type
 
@@ -237,8 +237,8 @@ CompletableFuture<ServerResponse> sendDateAsOptionalAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `date` | `LocalDate` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `date1` | `LocalDate` | Query, Optional | &lt;testing&gt; &lt;testing&gt; |
+| `date` | `LocalDate` | Query, Required | <testing> <testing> |
+| `date1` | `LocalDate` | Query, Optional | <testing> <testing> |
 
 ## Response Type
 
@@ -271,8 +271,8 @@ CompletableFuture<ServerResponse> sendStringAsOptionalAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `string` | `String` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `string1` | `String` | Query, Optional | &lt;testing&gt; &lt;testing&gt; |
+| `string` | `String` | Query, Required | <testing> <testing> |
+| `string1` | `String` | Query, Optional | <testing> <testing> |
 
 ## Response Type
 
@@ -305,8 +305,8 @@ CompletableFuture<ServerResponse> unixdatetimeAsOptionalAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `dateTime` | `LocalDateTime` | Query, Required | &lt;testing&gt; &lt;testing&gt; |
-| `dateTime1` | `LocalDateTime` | Query, Optional | &lt;testing&gt; &lt;testing&gt; |
+| `dateTime` | `LocalDateTime` | Query, Required | <testing> <testing> |
+| `dateTime1` | `LocalDateTime` | Query, Optional | <testing> <testing> |
 
 ## Response Type
 

@@ -9,8 +9,8 @@
 
 | Name | Description |
 |  --- | --- |
-| `CODEGEN` | &lt;testing&gt; &lt;testing&gt; |
-| `CGAAS` | &lt;testing&gt; &lt;testing&gt; |
-| `UX` | &lt;testing&gt; &lt;testing&gt; |
-| `QA` | &lt;testing&gt; &lt;testing&gt; |
+| `CODEGEN` | <testing> <testing> |
+| `CGAAS` | <testing> <testing> |
+| `UX` | <testing> <testing> |
+| `QA` | <testing> <testing> |
 

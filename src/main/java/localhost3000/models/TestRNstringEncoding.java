@@ -37,7 +37,7 @@ public class TestRNstringEncoding
 
     /**
      * Getter for Field.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @return Returns the String
      */
     @JsonGetter("field")
@@ -47,7 +47,7 @@ public class TestRNstringEncoding
 
     /**
      * Setter for Field.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @param field Value for String
      */
     @JsonSetter("field")
@@ -57,7 +57,7 @@ public class TestRNstringEncoding
 
     /**
      * Getter for Name.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @return Returns the String
      */
     @JsonGetter("name")
@@ -67,7 +67,7 @@ public class TestRNstringEncoding
 
     /**
      * Setter for Name.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @param name Value for String
      */
     @JsonSetter("name")

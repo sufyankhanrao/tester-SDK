@@ -9,7 +9,7 @@
 
 | Name | Type | Tags | Description | Getter | Setter |
 |  --- | --- | --- | --- | --- | --- |
-| `DateTime` | `LocalDateTime` | Required | &lt;testing&gt; &lt;testing&gt; | LocalDateTime getDateTime() | setDateTime(LocalDateTime dateTime) |
+| `DateTime` | `LocalDateTime` | Required | <testing> <testing> | LocalDateTime getDateTime() | setDateTime(LocalDateTime dateTime) |
 | `DateTime1` | `LocalDateTime` | Optional | - | LocalDateTime getDateTime1() | setDateTime1(LocalDateTime dateTime1) |
 
 ## Example (as JSON)

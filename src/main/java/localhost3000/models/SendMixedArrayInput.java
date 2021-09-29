@@ -46,7 +46,7 @@ public class SendMixedArrayInput {
 
     /**
      * Getter for File.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @return Returns the FileWrapper
      */
     @JsonGetter("file")
@@ -56,7 +56,7 @@ public class SendMixedArrayInput {
 
     /**
      * Setter for File.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @param file Value for FileWrapper
      */
     @JsonSetter("file")
@@ -66,7 +66,7 @@ public class SendMixedArrayInput {
 
     /**
      * Getter for Integers.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @return Returns the List of Integer
      */
     @JsonGetter("integers")
@@ -76,7 +76,7 @@ public class SendMixedArrayInput {
 
     /**
      * Setter for Integers.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @param integers Value for List of Integer
      */
     @JsonSetter("integers")
@@ -86,7 +86,7 @@ public class SendMixedArrayInput {
 
     /**
      * Getter for Models.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @return Returns the List of Employee
      */
     @JsonGetter("models")
@@ -96,7 +96,7 @@ public class SendMixedArrayInput {
 
     /**
      * Setter for Models.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @param models Value for List of Employee
      */
     @JsonSetter("models")
@@ -106,7 +106,7 @@ public class SendMixedArrayInput {
 
     /**
      * Getter for Strings.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @return Returns the List of String
      */
     @JsonGetter("strings")
@@ -116,7 +116,7 @@ public class SendMixedArrayInput {
 
     /**
      * Setter for Strings.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @param strings Value for List of String
      */
     @JsonSetter("strings")

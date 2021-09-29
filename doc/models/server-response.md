@@ -9,9 +9,9 @@
 
 | Name | Type | Tags | Description | Getter | Setter |
 |  --- | --- | --- | --- | --- | --- |
-| `Passed` | `boolean` | Required | &lt;testing&gt; &lt;testing&gt; | boolean getPassed() | setPassed(boolean passed) |
-| `Message` | `String` | Optional | &lt;testing&gt; &lt;testing&gt; | String getMessage() | setMessage(String message) |
-| `Input` | `Map<String, Object>` | Optional | &lt;testing&gt; &lt;testing&gt; | Map<String, Object> getInput() | setInput(Map<String, Object> input) |
+| `Passed` | `boolean` | Required | <testing> <testing> | boolean getPassed() | setPassed(boolean passed) |
+| `Message` | `String` | Optional | <testing> <testing> | String getMessage() | setMessage(String message) |
+| `Input` | `Map<String, Object>` | Optional | <testing> <testing> | Map<String, Object> getInput() | setInput(Map<String, Object> input) |
 
 ## Example (as JSON)
 

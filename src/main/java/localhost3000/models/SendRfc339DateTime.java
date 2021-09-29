@@ -35,7 +35,7 @@ public class SendRfc339DateTime
 
     /**
      * Getter for DateTime.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @return Returns the ModelWithOptionalRfc3339DateTime
      */
     @JsonGetter("dateTime")
@@ -45,7 +45,7 @@ public class SendRfc339DateTime
 
     /**
      * Setter for DateTime.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @param dateTime Value for ModelWithOptionalRfc3339DateTime
      */
     @JsonSetter("dateTime")

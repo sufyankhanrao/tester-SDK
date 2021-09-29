@@ -35,7 +35,7 @@ public class SendUnixDateTime
 
     /**
      * Getter for DateTime.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @return Returns the UnixDateTime
      */
     @JsonGetter("dateTime")
@@ -45,7 +45,7 @@ public class SendUnixDateTime
 
     /**
      * Setter for DateTime.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @param dateTime Value for UnixDateTime
      */
     @JsonSetter("dateTime")

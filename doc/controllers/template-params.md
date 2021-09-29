@@ -25,7 +25,7 @@ CompletableFuture<EchoResponse> sendStringArrayAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `strings` | `List<String>` | Template, Required | &lt;testing&gt; &lt;testing&gt; |
+| `strings` | `List<String>` | Template, Required | <testing> <testing> |
 
 ## Response Type
 
@@ -57,7 +57,7 @@ CompletableFuture<EchoResponse> sendIntegerArrayAsync(
 
 | Parameter | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `integers` | `List<Integer>` | Template, Required | &lt;testing&gt; &lt;testing&gt; |
+| `integers` | `List<Integer>` | Template, Required | <testing> <testing> |
 
 ## Response Type
 

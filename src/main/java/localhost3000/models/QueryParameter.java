@@ -35,7 +35,7 @@ public class QueryParameter
 
     /**
      * Getter for Key.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @return Returns the String
      */
     @JsonGetter("key")
@@ -45,7 +45,7 @@ public class QueryParameter
 
     /**
      * Setter for Key.
-     * <testing> <testing>
+     * &lt;testing&gt; &lt;testing&gt;
      * @param key Value for String
      */
     @JsonSetter("key")

@@ -6,20 +6,17 @@ The following parameters are configurable for the API Client:
 | Parameter | Type | Description |
 |  --- | --- | --- |
 | `httpClientConfig` | `ReadonlyHttpClientConfiguration` | Http Client Configuration instance.<br>* See available [builder methods here](/doc/http-client-configuration-builder.md). |
-| `basicAuthUserName` | `String` | The username to use with basic authentication |
-| `basicAuthPassword` | `String` | The password to use with basic authentication |
 
 The API client can be initialized as follows:
 
 ```java
-LobAPI20200211SpecificationClient client = new LobAPI20200211SpecificationClient.Builder()
+NullableClient client = new NullableClient.Builder()
     .httpClientConfig(configBuilder -> configBuilder
             .timeout(0))
-    .basicAuthCredentials("BasicAuthUserName", "BasicAuthPassword")
     .build();
 ```
 
-## Lob API (2020-02-11) SpecificationClient Class
+## NullableClient Class
 
 The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 
@@ -27,20 +24,10 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 
 | Name | Description | Return Type |
 |  --- | --- | --- |
-| `getAddressesController()` | Provides access to Addresses controller. | `AddressesController` |
-| `getBankAccountsController()` | Provides access to BankAccounts controller. | `BankAccountsController` |
-| `getBillingGroupsController()` | Provides access to BillingGroups controller. | `BillingGroupsController` |
-| `getChecksController()` | Provides access to Checks controller. | `ChecksController` |
-| `getIntlVerificationsController()` | Provides access to IntlVerifications controller. | `IntlVerificationsController` |
-| `getLettersController()` | Provides access to Letters controller. | `LettersController` |
-| `getPostcardsController()` | Provides access to Postcards controller. | `PostcardsController` |
-| `getSelfMailersController()` | Provides access to SelfMailers controller. | `SelfMailersController` |
-| `getTemplateVersionsController()` | Provides access to TemplateVersions controller. | `TemplateVersionsController` |
-| `getTemplatesController()` | Provides access to Templates controller. | `TemplatesController` |
-| `getUSAutocompletionsController()` | Provides access to USAutocompletions controller. | `USAutocompletionsController` |
-| `getUSVerificationsController()` | Provides access to USVerifications controller. | `USVerificationsController` |
-| `getZipLookupsController()` | Provides access to ZipLookups controller. | `ZipLookupsController` |
-| `getReverseGeocodeController()` | Provides access to ReverseGeocode controller. | `ReverseGeocodeController` |
+| `getBodyParamsController()` | Provides access to BodyParams controller. | `BodyParamsController` |
+| `getFormParamsController()` | Provides access to FormParams controller. | `FormParamsController` |
+| `getQueryParamsController()` | Provides access to QueryParams controller. | `QueryParamsController` |
+| `getResponseController()` | Provides access to Response controller. | `ResponseController` |
 
 ### Methods
 

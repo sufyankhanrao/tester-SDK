@@ -1,22 +1,21 @@
-# Group 1
+# Mix Non Primitive Types in Response Body
 
 ```java
-Group1Controller group1Controller = client.getGroup1Controller();
+MixNonPrimitiveTypesInResponseBodyController mixNonPrimitiveTypesInResponseBodyController = client.getMixNonPrimitiveTypesInResponseBodyController();
 ```
 
 ## Class Name
 
-`Group1Controller`
+`MixNonPrimitiveTypesInResponseBodyController`
 
 
-# Send Oneof Simple
+# Get Anyof Container of Oneof
 
 ```java
-CompletableFuture<Object> sendOneofSimpleAsync(
+CompletableFuture<Object> getAnyofContainerOfOneofAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
-    final boolean hasDiscriminator,
-    final SendOneofSimpleSession session)
+    final boolean hasDiscriminator)
 ```
 
 ## Parameters
@@ -26,7 +25,6 @@ CompletableFuture<Object> sendOneofSimpleAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `object` | Body, Required | Course session |
 
 ## Response Type
 
@@ -38,28 +36,13 @@ CompletableFuture<Object> sendOneofSimpleAsync(
 boolean isPrimitiveType = false;
 boolean isAtEndpointLevel = false;
 boolean hasDiscriminator = false;
-Evening evening = new Evening();
-evening.setStartsAt("startsAtDummy");
-evening.setEndsAt("endsAtDummy");
-evening.setOfferDinner(true);
-SendOneofSimpleSession sendOneofSimpleSession = SendOneofSimpleSession.fromEvening(evening);
 
-group1Controller.sendOneofSimpleAsync(isPrimitiveType, isAtEndpointLevel, hasDiscriminator, sendOneofSimpleSession).thenAccept(result -> {
+mixNonPrimitiveTypesInResponseBodyController.getAnyofContainerOfOneofAsync(isPrimitiveType, isAtEndpointLevel, hasDiscriminator).thenAccept(result -> {
     // TODO success callback handler
 }).exceptionally(exception -> {
     // TODO failure callback handler
     return null;
 });
-```
-
-## Example Response
-
-```
-{
-  "startsAt": "startsAtDummy",
-  "endsAt": "endsAtDummy",
-  "offerDinner": true
-}
 ```
 
 ## Errors

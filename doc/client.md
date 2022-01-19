@@ -12,7 +12,7 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```java
-OneOfNonScalarEndpointsModifiedClient client = new OneOfNonScalarEndpointsModifiedClient.Builder()
+AnyOfNonScalarEndpointsClient client = new AnyOfNonScalarEndpointsClient.Builder()
     .httpClientConfig(configBuilder -> configBuilder
             .timeout(0))
     .environment(Environment.TESTING)
@@ -20,7 +20,7 @@ OneOfNonScalarEndpointsModifiedClient client = new OneOfNonScalarEndpointsModifi
     .build();
 ```
 
-## OneOf-non-scalar-endpoints-modifiedClient Class
+## AnyOf-non-scalar-endpointsClient Class
 
 The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 
@@ -28,8 +28,10 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 
 | Name | Description | Return Type |
 |  --- | --- | --- |
-| `getGroup1Controller()` | Provides access to Group1 controller. | `Group1Controller` |
-| `getGroup2Controller()` | Provides access to Group2 controller. | `Group2Controller` |
+| `getAnyOfNonPrimitiveTypesInRequestBodyController()` | Provides access to AnyOfNonPrimitiveTypesInRequestBody controller. | `AnyOfNonPrimitiveTypesInRequestBodyController` |
+| `getMixNonPrimitiveTypesInRequestBodyController()` | Provides access to MixNonPrimitiveTypesInRequestBody controller. | `MixNonPrimitiveTypesInRequestBodyController` |
+| `getAnyOfNonPrimitiveTypesInResponseBodyController()` | Provides access to AnyOfNonPrimitiveTypesInResponseBody controller. | `AnyOfNonPrimitiveTypesInResponseBodyController` |
+| `getMixNonPrimitiveTypesInResponseBodyController()` | Provides access to MixNonPrimitiveTypesInResponseBody controller. | `MixNonPrimitiveTypesInResponseBodyController` |
 
 ### Methods
 

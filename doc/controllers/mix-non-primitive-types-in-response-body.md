@@ -9,10 +9,10 @@ MixNonPrimitiveTypesInResponseBodyController mixNonPrimitiveTypesInResponseBodyC
 `MixNonPrimitiveTypesInResponseBodyController`
 
 
-# Get Anyof Container of Oneof
+# Get Oneof Container of Anyof
 
 ```java
-CompletableFuture<GetAnyofContainerOfOneofSession> getAnyofContainerOfOneofAsync(
+CompletableFuture<GetOneofContainerOfAnyofSession> getOneofContainerOfAnyofAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -28,7 +28,7 @@ CompletableFuture<GetAnyofContainerOfOneofSession> getAnyofContainerOfOneofAsync
 
 ## Response Type
 
-`GetAnyofContainerOfOneofSession`
+`GetOneofContainerOfAnyofSession`
 
 ## Example Usage
 
@@ -37,7 +37,7 @@ boolean isPrimitiveType = false;
 boolean isAtEndpointLevel = false;
 boolean hasDiscriminator = false;
 
-mixNonPrimitiveTypesInResponseBodyController.getAnyofContainerOfOneofAsync(isPrimitiveType, isAtEndpointLevel, hasDiscriminator).thenAccept(result -> {
+mixNonPrimitiveTypesInResponseBodyController.getOneofContainerOfAnyofAsync(isPrimitiveType, isAtEndpointLevel, hasDiscriminator).thenAccept(result -> {
     // TODO success callback handler
 }).exceptionally(exception -> {
     // TODO failure callback handler

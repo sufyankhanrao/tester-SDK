@@ -9,14 +9,14 @@ MixNonPrimitiveTypesInRequestBodyController mixNonPrimitiveTypesInRequestBodyCon
 `MixNonPrimitiveTypesInRequestBodyController`
 
 
-# Send Anyof Container of Oneof
+# Send Oneof Container of Anyof
 
 ```java
-CompletableFuture<ServerResponse> sendAnyofContainerOfOneofAsync(
+CompletableFuture<ServerResponse> sendOneofContainerOfAnyofAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator,
-    final SendAnyofContainerOfOneofSession session)
+    final SendOneofContainerOfAnyofSession session)
 ```
 
 ## Parameters
@@ -26,7 +26,7 @@ CompletableFuture<ServerResponse> sendAnyofContainerOfOneofAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | [`SendAnyofContainerOfOneofSession`]($m/SendAnyofContainerOfOneofSession) | Body, Required | - |
+| `session` | [`SendOneofContainerOfAnyofSession`]($m/SendOneofContainerOfAnyofSession) | Body, Required | - |
 
 ## Response Type
 
@@ -38,13 +38,14 @@ CompletableFuture<ServerResponse> sendAnyofContainerOfOneofAsync(
 boolean isPrimitiveType = false;
 boolean isAtEndpointLevel = false;
 boolean hasDiscriminator = false;
-Morning morning = new Morning();
-morning.setStartsAt("startsAt9");
-morning.setEndsAt("endsAt9");
-morning.setOfferTeaBreak(true);
-SendAnyofContainerOfOneofSession sendAnyofContainerOfOneofSession = SendAnyofContainerOfOneofSession.fromMorning(morning);
+Noon noon = new Noon();
+noon.setStartsAt("startsAtDummy");
+noon.setEndsAt("endsAtDummy");
+noon.setOfferLunch(true);
+SendOneofContainerOfAnyofSessionCase1 sendOneofContainerOfAnyofSessionCase1 = SendOneofContainerOfAnyofSessionCase1.fromNoon(noon);
+SendOneofContainerOfAnyofSession sendOneofContainerOfAnyofSession = SendOneofContainerOfAnyofSession.fromCase1(sendOneofContainerOfAnyofSessionCase1);
 
-mixNonPrimitiveTypesInRequestBodyController.sendAnyofContainerOfOneofAsync(isPrimitiveType, isAtEndpointLevel, hasDiscriminator, sendAnyofContainerOfOneofSession).thenAccept(result -> {
+mixNonPrimitiveTypesInRequestBodyController.sendOneofContainerOfAnyofAsync(isPrimitiveType, isAtEndpointLevel, hasDiscriminator, sendOneofContainerOfAnyofSession).thenAccept(result -> {
     // TODO success callback handler
 }).exceptionally(exception -> {
     // TODO failure callback handler

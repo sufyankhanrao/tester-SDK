@@ -12,7 +12,7 @@ MixNonPrimitiveTypesInResponseBodyController mixNonPrimitiveTypesInResponseBodyC
 # Get Anyof Container of Oneof
 
 ```java
-CompletableFuture<Object> getAnyofContainerOfOneofAsync(
+CompletableFuture<GetAnyofContainerOfOneofSession> getAnyofContainerOfOneofAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -28,7 +28,7 @@ CompletableFuture<Object> getAnyofContainerOfOneofAsync(
 
 ## Response Type
 
-`object`
+`GetAnyofContainerOfOneofSession`
 
 ## Example Usage
 

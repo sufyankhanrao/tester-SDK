@@ -57,7 +57,7 @@ CompletableFuture<ServerResponse> sendAnyofSimpleAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `object` | Body, Required | Course session |
+| `session` | [`SendAnyofSimpleSession`]($m/SendAnyofSimpleSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -107,7 +107,7 @@ CompletableFuture<ServerResponse> sendAnyofOuterArrayAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `List<Object>` | Body, Required | Course session |
+| `session` | [`List<SendAnyofOuterArraySession>`]($m/SendAnyofOuterArraySession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -161,7 +161,7 @@ CompletableFuture<ServerResponse> sendAnyofInnerArrayAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `object` | Body, Required | Course session |
+| `session` | [`SendAnyofInnerArraySession`]($m/SendAnyofInnerArraySession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -221,7 +221,7 @@ CompletableFuture<ServerResponse> sendAnyofArrayOfArraysAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `List<Object>` | Body, Required | Course session |
+| `session` | [`List<SendAnyofArrayOfArraysSession>`]($m/SendAnyofArrayOfArraysSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -273,7 +273,7 @@ CompletableFuture<ServerResponse> sendAnyofInnerMixedArraysAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `object` | Body, Required | Course session |
+| `session` | [`SendAnyofInnerMixedArraysSession`]($m/SendAnyofInnerMixedArraysSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -333,7 +333,7 @@ CompletableFuture<ServerResponse> sendAnyofArrayOfMixedArraysAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `List<Object>` | Body, Required | Course session |
+| `session` | [`List<SendAnyofArrayOfMixedArraysSession>`]($m/SendAnyofArrayOfMixedArraysSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -387,7 +387,7 @@ CompletableFuture<ServerResponse> sendAnyofOuterMapAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `Map<String, Object>` | Body, Required | Course session |
+| `session` | [`Map<String, SendAnyofOuterMapSession>`]($m/SendAnyofOuterMapSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -436,7 +436,7 @@ CompletableFuture<ServerResponse> sendAnyofInnerMapAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `object` | Body, Required | Course session |
+| `session` | [`SendAnyofInnerMapSession`]($m/SendAnyofInnerMapSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -496,7 +496,7 @@ CompletableFuture<ServerResponse> sendAnyofMapOfMapAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `Map<String, Object>` | Body, Required | Course session |
+| `session` | [`Map<String, SendAnyofMapOfMapSession>`]($m/SendAnyofMapOfMapSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -545,7 +545,7 @@ CompletableFuture<ServerResponse> sendAnyofInnerMixedMapAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `object` | Body, Required | Course session |
+| `session` | [`SendAnyofInnerMixedMapSession`]($m/SendAnyofInnerMixedMapSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -605,7 +605,7 @@ CompletableFuture<ServerResponse> sendAnyofMapOfInnerMixedMapAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `Map<String, Object>` | Body, Required | Course session |
+| `session` | [`Map<String, SendAnyofMapOfInnerMixedMapSession>`]($m/SendAnyofMapOfInnerMixedMapSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -654,7 +654,7 @@ CompletableFuture<ServerResponse> sendAnyofOuterArrayOfMapFlagAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `List<Map<String, Object>>` | Body, Required | Course session |
+| `session` | [`List<Map<String, SendAnyofOuterArrayOfMapFlagSession>>`]($m/SendAnyofOuterArrayOfMapFlagSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -708,7 +708,7 @@ CompletableFuture<ServerResponse> sendAnyofInnerArrayOfMapFlagAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `object` | Body, Required | Course session |
+| `session` | [`SendAnyofInnerArrayOfMapFlagSession`]($m/SendAnyofInnerArrayOfMapFlagSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -768,7 +768,7 @@ CompletableFuture<ServerResponse> sendAnyofArrayOfMapFlagOfArrayOfMapFlagAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `List<Map<String, Object>>` | Body, Required | Course session |
+| `session` | [`List<Map<String, SendAnyofArrayOfMapFlagOfArrayOfMapFlagSession>>`]($m/SendAnyofArrayOfMapFlagOfArrayOfMapFlagSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -820,7 +820,7 @@ CompletableFuture<ServerResponse> sendAnyofInnerMixedArrayOfMapFlagAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `object` | Body, Required | Course session |
+| `session` | [`SendAnyofInnerMixedArrayOfMapFlagSession`]($m/SendAnyofInnerMixedArrayOfMapFlagSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -880,7 +880,7 @@ CompletableFuture<ServerResponse> sendAnyofArrayOfMapFlagOfMixedArrayOfMapFlagAs
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `List<Map<String, Object>>` | Body, Required | Course session |
+| `session` | [`List<Map<String, SendAnyofArrayOfMapFlagOfMixedArrayOfMapFlagSession>>`]($m/SendAnyofArrayOfMapFlagOfMixedArrayOfMapFlagSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -932,7 +932,7 @@ CompletableFuture<ServerResponse> sendAnyofOuterMapOfArrayAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `Map<String, List<Object>>` | Body, Required | Course session |
+| `session` | [`Map<String, List<SendAnyofOuterMapOfArraySession>>`]($m/SendAnyofOuterMapOfArraySession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -986,7 +986,7 @@ CompletableFuture<ServerResponse> sendAnyofInnerMapOfArrayAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `object` | Body, Required | Course session |
+| `session` | [`SendAnyofInnerMapOfArraySession`]($m/SendAnyofInnerMapOfArraySession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -1046,7 +1046,7 @@ CompletableFuture<ServerResponse> sendAnyofMapOfArrayOfMapOfArrayAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `Map<String, List<Object>>` | Body, Required | Course session |
+| `session` | [`Map<String, List<SendAnyofMapOfArrayOfMapOfArraySession>>`]($m/SendAnyofMapOfArrayOfMapOfArraySession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -1098,7 +1098,7 @@ CompletableFuture<ServerResponse> sendAnyofInnerMixedMapOfArrayAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `object` | Body, Required | Course session |
+| `session` | [`SendAnyofInnerMixedMapOfArraySession`]($m/SendAnyofInnerMixedMapOfArraySession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -1158,7 +1158,7 @@ CompletableFuture<ServerResponse> sendAnyofMapOfArrayOfMixedMapOfArrayAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `Map<String, List<Object>>` | Body, Required | Course session |
+| `session` | [`Map<String, List<SendAnyofMapOfArrayOfMixedMapOfArraySession>>`]($m/SendAnyofMapOfArrayOfMixedMapOfArraySession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -1210,7 +1210,7 @@ CompletableFuture<ServerResponse> sendAnyofArrayOfMapsAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `List<Object>` | Body, Required | Course session |
+| `session` | [`List<SendAnyofArrayOfMapsSession>`]($m/SendAnyofArrayOfMapsSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -1262,7 +1262,7 @@ CompletableFuture<ServerResponse> sendAnyofArrayOfArrayOfMapFlagAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `List<Object>` | Body, Required | Course session |
+| `session` | [`List<SendAnyofArrayOfArrayOfMapFlagSession>`]($m/SendAnyofArrayOfArrayOfMapFlagSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -1314,7 +1314,7 @@ CompletableFuture<ServerResponse> sendAnyofMapOfArrayAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `Map<String, Object>` | Body, Required | Course session |
+| `session` | [`Map<String, SendAnyofMapOfArraySession>`]($m/SendAnyofMapOfArraySession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -1363,7 +1363,7 @@ CompletableFuture<ServerResponse> sendAnyofMapOfArrayOfMapFlagAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `Map<String, Object>` | Body, Required | Course session |
+| `session` | [`Map<String, SendAnyofMapOfArrayOfMapFlagSession>`]($m/SendAnyofMapOfArrayOfMapFlagSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -1412,7 +1412,7 @@ CompletableFuture<ServerResponse> sendAnyofArrayOfMapFlagOfArrayAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `List<Map<String, Object>>` | Body, Required | Course session |
+| `session` | [`List<Map<String, SendAnyofArrayOfMapFlagOfArraySession>>`]($m/SendAnyofArrayOfMapFlagOfArraySession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -1464,7 +1464,7 @@ CompletableFuture<ServerResponse> sendAnyofArrayOfMapFlagOfMapAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `List<Map<String, Object>>` | Body, Required | Course session |
+| `session` | [`List<Map<String, SendAnyofArrayOfMapFlagOfMapSession>>`]($m/SendAnyofArrayOfMapFlagOfMapSession) | Body, Required | Course session |
 
 ## Response Type
 
@@ -1516,7 +1516,7 @@ CompletableFuture<ServerResponse> sendMultiLevelAnyofAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `object` | Body, Required | - |
+| `session` | [`SendMultiLevelAnyofSession`]($m/SendMultiLevelAnyofSession) | Body, Required | - |
 
 ## Response Type
 

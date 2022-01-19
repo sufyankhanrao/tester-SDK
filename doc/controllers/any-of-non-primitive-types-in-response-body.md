@@ -43,7 +43,7 @@ AnyOfNonPrimitiveTypesInResponseBodyController anyOfNonPrimitiveTypesInResponseB
 # Get Anyof Simple
 
 ```java
-CompletableFuture<Object> getAnyofSimpleAsync(
+CompletableFuture<GetAnyofSimpleSession> getAnyofSimpleAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -59,7 +59,7 @@ CompletableFuture<Object> getAnyofSimpleAsync(
 
 ## Response Type
 
-`object`
+`GetAnyofSimpleSession`
 
 ## Example Usage
 
@@ -86,7 +86,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofSimpleAsync(isPrimitiveTy
 # Get Anyof Outer Array
 
 ```java
-CompletableFuture<List<Object>> getAnyofOuterArrayAsync(
+CompletableFuture<List<GetAnyofOuterArraySession>> getAnyofOuterArrayAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -102,7 +102,7 @@ CompletableFuture<List<Object>> getAnyofOuterArrayAsync(
 
 ## Response Type
 
-`List<Object>`
+`List<GetAnyofOuterArraySession>`
 
 ## Example Usage
 
@@ -129,7 +129,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofOuterArrayAsync(isPrimiti
 # Get Anyof Inner Array
 
 ```java
-CompletableFuture<Object> getAnyofInnerArrayAsync(
+CompletableFuture<GetAnyofInnerArraySession> getAnyofInnerArrayAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -145,7 +145,7 @@ CompletableFuture<Object> getAnyofInnerArrayAsync(
 
 ## Response Type
 
-`object`
+`GetAnyofInnerArraySession`
 
 ## Example Usage
 
@@ -172,7 +172,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofInnerArrayAsync(isPrimiti
 # Get Anyof Array of Arrays
 
 ```java
-CompletableFuture<List<Object>> getAnyofArrayOfArraysAsync(
+CompletableFuture<List<GetAnyofArrayOfArraysSession>> getAnyofArrayOfArraysAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -188,7 +188,7 @@ CompletableFuture<List<Object>> getAnyofArrayOfArraysAsync(
 
 ## Response Type
 
-`List<Object>`
+`List<GetAnyofArrayOfArraysSession>`
 
 ## Example Usage
 
@@ -215,7 +215,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofArrayOfArraysAsync(isPrim
 # Get Anyof Inner Mixed Arrays
 
 ```java
-CompletableFuture<Object> getAnyofInnerMixedArraysAsync(
+CompletableFuture<GetAnyofInnerMixedArraysSession> getAnyofInnerMixedArraysAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -231,7 +231,7 @@ CompletableFuture<Object> getAnyofInnerMixedArraysAsync(
 
 ## Response Type
 
-`object`
+`GetAnyofInnerMixedArraysSession`
 
 ## Example Usage
 
@@ -258,7 +258,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofInnerMixedArraysAsync(isP
 # Get Anyof Array of Mixed Arrays
 
 ```java
-CompletableFuture<List<Object>> getAnyofArrayOfMixedArraysAsync(
+CompletableFuture<List<GetAnyofArrayOfMixedArraysSession>> getAnyofArrayOfMixedArraysAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -274,7 +274,7 @@ CompletableFuture<List<Object>> getAnyofArrayOfMixedArraysAsync(
 
 ## Response Type
 
-`List<Object>`
+`List<GetAnyofArrayOfMixedArraysSession>`
 
 ## Example Usage
 
@@ -301,7 +301,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofArrayOfMixedArraysAsync(i
 # Get Anyof Outer Map
 
 ```java
-CompletableFuture<Map<String, Object>> getAnyofOuterMapAsync(
+CompletableFuture<Map<String, GetAnyofOuterMapSession>> getAnyofOuterMapAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -317,7 +317,7 @@ CompletableFuture<Map<String, Object>> getAnyofOuterMapAsync(
 
 ## Response Type
 
-`Map<String, Object>`
+`Map<String, GetAnyofOuterMapSession>`
 
 ## Example Usage
 
@@ -344,7 +344,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofOuterMapAsync(isPrimitive
 # Get Anyof Inner Map
 
 ```java
-CompletableFuture<Object> getAnyofInnerMapAsync(
+CompletableFuture<GetAnyofInnerMapSession> getAnyofInnerMapAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -360,7 +360,7 @@ CompletableFuture<Object> getAnyofInnerMapAsync(
 
 ## Response Type
 
-`object`
+`GetAnyofInnerMapSession`
 
 ## Example Usage
 
@@ -387,7 +387,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofInnerMapAsync(isPrimitive
 # Get Anyof Map of Map
 
 ```java
-CompletableFuture<Map<String, Object>> getAnyofMapOfMapAsync(
+CompletableFuture<Map<String, GetAnyofMapOfMapSession>> getAnyofMapOfMapAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -403,7 +403,7 @@ CompletableFuture<Map<String, Object>> getAnyofMapOfMapAsync(
 
 ## Response Type
 
-`Map<String, Object>`
+`Map<String, GetAnyofMapOfMapSession>`
 
 ## Example Usage
 
@@ -430,7 +430,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofMapOfMapAsync(isPrimitive
 # Get Anyof Inner Mixed Map
 
 ```java
-CompletableFuture<Object> getAnyofInnerMixedMapAsync(
+CompletableFuture<GetAnyofInnerMixedMapSession> getAnyofInnerMixedMapAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -446,7 +446,7 @@ CompletableFuture<Object> getAnyofInnerMixedMapAsync(
 
 ## Response Type
 
-`object`
+`GetAnyofInnerMixedMapSession`
 
 ## Example Usage
 
@@ -473,7 +473,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofInnerMixedMapAsync(isPrim
 # Get Anyof Map of Inner Mixed Map
 
 ```java
-CompletableFuture<Map<String, Object>> getAnyofMapOfInnerMixedMapAsync(
+CompletableFuture<Map<String, GetAnyofMapOfInnerMixedMapSession>> getAnyofMapOfInnerMixedMapAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -489,7 +489,7 @@ CompletableFuture<Map<String, Object>> getAnyofMapOfInnerMixedMapAsync(
 
 ## Response Type
 
-`Map<String, Object>`
+`Map<String, GetAnyofMapOfInnerMixedMapSession>`
 
 ## Example Usage
 
@@ -516,7 +516,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofMapOfInnerMixedMapAsync(i
 # Get Anyof Outer Array of Map Flag
 
 ```java
-CompletableFuture<List<Map<String, Object>>> getAnyofOuterArrayOfMapFlagAsync(
+CompletableFuture<List<Map<String, GetAnyofOuterArrayOfMapFlagSession>>> getAnyofOuterArrayOfMapFlagAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -532,7 +532,7 @@ CompletableFuture<List<Map<String, Object>>> getAnyofOuterArrayOfMapFlagAsync(
 
 ## Response Type
 
-`List<Map<String, Object>>`
+`List<Map<String, GetAnyofOuterArrayOfMapFlagSession>>`
 
 ## Example Usage
 
@@ -559,7 +559,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofOuterArrayOfMapFlagAsync(
 # Get Anyof Inner Array of Map Flag
 
 ```java
-CompletableFuture<Object> getAnyofInnerArrayOfMapFlagAsync(
+CompletableFuture<GetAnyofInnerArrayOfMapFlagSession> getAnyofInnerArrayOfMapFlagAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -575,7 +575,7 @@ CompletableFuture<Object> getAnyofInnerArrayOfMapFlagAsync(
 
 ## Response Type
 
-`object`
+`GetAnyofInnerArrayOfMapFlagSession`
 
 ## Example Usage
 
@@ -602,7 +602,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofInnerArrayOfMapFlagAsync(
 # Get Anyof Array of Map Flag of Array of Map Flag
 
 ```java
-CompletableFuture<List<Map<String, Object>>> getAnyofArrayOfMapFlagOfArrayOfMapFlagAsync(
+CompletableFuture<List<Map<String, GetAnyofArrayOfMapFlagOfArrayOfMapFlagSession>>> getAnyofArrayOfMapFlagOfArrayOfMapFlagAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -618,7 +618,7 @@ CompletableFuture<List<Map<String, Object>>> getAnyofArrayOfMapFlagOfArrayOfMapF
 
 ## Response Type
 
-`List<Map<String, Object>>`
+`List<Map<String, GetAnyofArrayOfMapFlagOfArrayOfMapFlagSession>>`
 
 ## Example Usage
 
@@ -645,7 +645,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofArrayOfMapFlagOfArrayOfMa
 # Get Anyof Inner Mixed Array of Map Flag
 
 ```java
-CompletableFuture<Object> getAnyofInnerMixedArrayOfMapFlagAsync(
+CompletableFuture<GetAnyofInnerMixedArrayOfMapFlagSession> getAnyofInnerMixedArrayOfMapFlagAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -661,7 +661,7 @@ CompletableFuture<Object> getAnyofInnerMixedArrayOfMapFlagAsync(
 
 ## Response Type
 
-`object`
+`GetAnyofInnerMixedArrayOfMapFlagSession`
 
 ## Example Usage
 
@@ -688,7 +688,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofInnerMixedArrayOfMapFlagA
 # Get Anyof Array of Map Flag of Mixed Array of Map Flag
 
 ```java
-CompletableFuture<List<Map<String, Object>>> getAnyofArrayOfMapFlagOfMixedArrayOfMapFlagAsync(
+CompletableFuture<List<Map<String, GetAnyofArrayOfMapFlagOfMixedArrayOfMapFlagSession>>> getAnyofArrayOfMapFlagOfMixedArrayOfMapFlagAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -704,7 +704,7 @@ CompletableFuture<List<Map<String, Object>>> getAnyofArrayOfMapFlagOfMixedArrayO
 
 ## Response Type
 
-`List<Map<String, Object>>`
+`List<Map<String, GetAnyofArrayOfMapFlagOfMixedArrayOfMapFlagSession>>`
 
 ## Example Usage
 
@@ -731,7 +731,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofArrayOfMapFlagOfMixedArra
 # Get Anyof Outer Map of Array
 
 ```java
-CompletableFuture<Map<String, List<Object>>> getAnyofOuterMapOfArrayAsync(
+CompletableFuture<Map<String, List<GetAnyofOuterMapOfArraySession>>> getAnyofOuterMapOfArrayAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -747,7 +747,7 @@ CompletableFuture<Map<String, List<Object>>> getAnyofOuterMapOfArrayAsync(
 
 ## Response Type
 
-`Map<String, List<Object>>`
+`Map<String, List<GetAnyofOuterMapOfArraySession>>`
 
 ## Example Usage
 
@@ -774,7 +774,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofOuterMapOfArrayAsync(isPr
 # Get Anyof Inner Map of Array
 
 ```java
-CompletableFuture<Object> getAnyofInnerMapOfArrayAsync(
+CompletableFuture<GetAnyofInnerMapOfArraySession> getAnyofInnerMapOfArrayAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -790,7 +790,7 @@ CompletableFuture<Object> getAnyofInnerMapOfArrayAsync(
 
 ## Response Type
 
-`object`
+`GetAnyofInnerMapOfArraySession`
 
 ## Example Usage
 
@@ -817,7 +817,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofInnerMapOfArrayAsync(isPr
 # Get Anyof Map of Array of Map of Array
 
 ```java
-CompletableFuture<Map<String, List<Object>>> getAnyofMapOfArrayOfMapOfArrayAsync(
+CompletableFuture<Map<String, List<GetAnyofMapOfArrayOfMapOfArraySession>>> getAnyofMapOfArrayOfMapOfArrayAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -833,7 +833,7 @@ CompletableFuture<Map<String, List<Object>>> getAnyofMapOfArrayOfMapOfArrayAsync
 
 ## Response Type
 
-`Map<String, List<Object>>`
+`Map<String, List<GetAnyofMapOfArrayOfMapOfArraySession>>`
 
 ## Example Usage
 
@@ -860,7 +860,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofMapOfArrayOfMapOfArrayAsy
 # Get Anyof Inner Mixed Map of Array
 
 ```java
-CompletableFuture<Object> getAnyofInnerMixedMapOfArrayAsync(
+CompletableFuture<GetAnyofInnerMixedMapOfArraySession> getAnyofInnerMixedMapOfArrayAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -876,7 +876,7 @@ CompletableFuture<Object> getAnyofInnerMixedMapOfArrayAsync(
 
 ## Response Type
 
-`object`
+`GetAnyofInnerMixedMapOfArraySession`
 
 ## Example Usage
 
@@ -903,7 +903,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofInnerMixedMapOfArrayAsync
 # Get Anyof Map of Array of Mixed Map of Array
 
 ```java
-CompletableFuture<Map<String, List<Object>>> getAnyofMapOfArrayOfMixedMapOfArrayAsync(
+CompletableFuture<Map<String, List<GetAnyofMapOfArrayOfMixedMapOfArraySession>>> getAnyofMapOfArrayOfMixedMapOfArrayAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -919,7 +919,7 @@ CompletableFuture<Map<String, List<Object>>> getAnyofMapOfArrayOfMixedMapOfArray
 
 ## Response Type
 
-`Map<String, List<Object>>`
+`Map<String, List<GetAnyofMapOfArrayOfMixedMapOfArraySession>>`
 
 ## Example Usage
 
@@ -946,7 +946,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofMapOfArrayOfMixedMapOfArr
 # Get Anyof Array of Maps
 
 ```java
-CompletableFuture<List<Object>> getAnyofArrayOfMapsAsync(
+CompletableFuture<List<GetAnyofArrayOfMapsSession>> getAnyofArrayOfMapsAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -962,7 +962,7 @@ CompletableFuture<List<Object>> getAnyofArrayOfMapsAsync(
 
 ## Response Type
 
-`List<Object>`
+`List<GetAnyofArrayOfMapsSession>`
 
 ## Example Usage
 
@@ -989,7 +989,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofArrayOfMapsAsync(isPrimit
 # Get Anyof Array of Array of Map Flag
 
 ```java
-CompletableFuture<List<Object>> getAnyofArrayOfArrayOfMapFlagAsync(
+CompletableFuture<List<GetAnyofArrayOfArrayOfMapFlagSession>> getAnyofArrayOfArrayOfMapFlagAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -1005,7 +1005,7 @@ CompletableFuture<List<Object>> getAnyofArrayOfArrayOfMapFlagAsync(
 
 ## Response Type
 
-`List<Object>`
+`List<GetAnyofArrayOfArrayOfMapFlagSession>`
 
 ## Example Usage
 
@@ -1032,7 +1032,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofArrayOfArrayOfMapFlagAsyn
 # Get Anyof Map of Array
 
 ```java
-CompletableFuture<Map<String, Object>> getAnyofMapOfArrayAsync(
+CompletableFuture<Map<String, GetAnyofMapOfArraySession>> getAnyofMapOfArrayAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -1048,7 +1048,7 @@ CompletableFuture<Map<String, Object>> getAnyofMapOfArrayAsync(
 
 ## Response Type
 
-`Map<String, Object>`
+`Map<String, GetAnyofMapOfArraySession>`
 
 ## Example Usage
 
@@ -1075,7 +1075,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofMapOfArrayAsync(isPrimiti
 # Get Anyof Map of Array of Map Flag
 
 ```java
-CompletableFuture<Map<String, Object>> getAnyofMapOfArrayOfMapFlagAsync(
+CompletableFuture<Map<String, GetAnyofMapOfArrayOfMapFlagSession>> getAnyofMapOfArrayOfMapFlagAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -1091,7 +1091,7 @@ CompletableFuture<Map<String, Object>> getAnyofMapOfArrayOfMapFlagAsync(
 
 ## Response Type
 
-`Map<String, Object>`
+`Map<String, GetAnyofMapOfArrayOfMapFlagSession>`
 
 ## Example Usage
 
@@ -1118,7 +1118,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofMapOfArrayOfMapFlagAsync(
 # Get Anyof Array of Map Flag of Array
 
 ```java
-CompletableFuture<List<Map<String, Object>>> getAnyofArrayOfMapFlagOfArrayAsync(
+CompletableFuture<List<Map<String, GetAnyofArrayOfMapFlagOfArraySession>>> getAnyofArrayOfMapFlagOfArrayAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -1134,7 +1134,7 @@ CompletableFuture<List<Map<String, Object>>> getAnyofArrayOfMapFlagOfArrayAsync(
 
 ## Response Type
 
-`List<Map<String, Object>>`
+`List<Map<String, GetAnyofArrayOfMapFlagOfArraySession>>`
 
 ## Example Usage
 
@@ -1161,7 +1161,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofArrayOfMapFlagOfArrayAsyn
 # Get Anyof Array of Map Flag of Map
 
 ```java
-CompletableFuture<List<Map<String, Object>>> getAnyofArrayOfMapFlagOfMapAsync(
+CompletableFuture<List<Map<String, GetAnyofArrayOfMapFlagOfMapSession>>> getAnyofArrayOfMapFlagOfMapAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -1177,7 +1177,7 @@ CompletableFuture<List<Map<String, Object>>> getAnyofArrayOfMapFlagOfMapAsync(
 
 ## Response Type
 
-`List<Map<String, Object>>`
+`List<Map<String, GetAnyofArrayOfMapFlagOfMapSession>>`
 
 ## Example Usage
 
@@ -1204,7 +1204,7 @@ anyOfNonPrimitiveTypesInResponseBodyController.getAnyofArrayOfMapFlagOfMapAsync(
 # Get Multi Level Anyof
 
 ```java
-CompletableFuture<Object> getMultiLevelAnyofAsync(
+CompletableFuture<GetMultiLevelAnyofSession> getMultiLevelAnyofAsync(
     final boolean isPrimitiveType,
     final boolean isAtEndpointLevel,
     final boolean hasDiscriminator)
@@ -1220,7 +1220,7 @@ CompletableFuture<Object> getMultiLevelAnyofAsync(
 
 ## Response Type
 
-`object`
+`GetMultiLevelAnyofSession`
 
 ## Example Usage
 

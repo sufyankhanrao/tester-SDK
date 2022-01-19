@@ -26,7 +26,7 @@ CompletableFuture<ServerResponse> sendAnyofContainerOfOneofAsync(
 | `isPrimitiveType` | `boolean` | Query, Required | - |
 | `isAtEndpointLevel` | `boolean` | Query, Required | - |
 | `hasDiscriminator` | `boolean` | Query, Required | - |
-| `session` | `object` | Body, Required | - |
+| `session` | [`SendAnyofContainerOfOneofSession`]($m/SendAnyofContainerOfOneofSession) | Body, Required | - |
 
 ## Response Type
 

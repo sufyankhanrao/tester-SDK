@@ -12,7 +12,7 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```java
-OneOfNonScalarEndpointsClient client = new OneOfNonScalarEndpointsClient.Builder()
+AnyOfScalarModelsClient client = new AnyOfScalarModelsClient.Builder()
     .httpClientConfig(configBuilder -> configBuilder
             .timeout(0))
     .environment(Environment.TESTING)
@@ -20,7 +20,7 @@ OneOfNonScalarEndpointsClient client = new OneOfNonScalarEndpointsClient.Builder
     .build();
 ```
 
-## OneOf-non-scalar-endpointsClient Class
+## AnyOf-scalar-modelsClient Class
 
 The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 
@@ -28,10 +28,10 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 
 | Name | Description | Return Type |
 |  --- | --- | --- |
-| `getOneOfNonPrimitiveTypesInRequestBodyController()` | Provides access to OneOfNonPrimitiveTypesInRequestBody controller. | `OneOfNonPrimitiveTypesInRequestBodyController` |
-| `getMixNonPrimitiveTypesInRequestBodyController()` | Provides access to MixNonPrimitiveTypesInRequestBody controller. | `MixNonPrimitiveTypesInRequestBodyController` |
-| `getOneOfNonPrimitiveTypesInResponseBodyController()` | Provides access to OneOfNonPrimitiveTypesInResponseBody controller. | `OneOfNonPrimitiveTypesInResponseBodyController` |
-| `getMixNonPrimitiveTypesInResponseBodyController()` | Provides access to MixNonPrimitiveTypesInResponseBody controller. | `MixNonPrimitiveTypesInResponseBodyController` |
+| `getAnyOfPrimitiveTypesInRequestBodyController()` | Provides access to AnyOfPrimitiveTypesInRequestBody controller. | `AnyOfPrimitiveTypesInRequestBodyController` |
+| `getMixPrimitiveTypesInRequestBodyController()` | Provides access to MixPrimitiveTypesInRequestBody controller. | `MixPrimitiveTypesInRequestBodyController` |
+| `getAnyOfPrimitiveTypesInResponseBodyController()` | Provides access to AnyOfPrimitiveTypesInResponseBody controller. | `AnyOfPrimitiveTypesInResponseBodyController` |
+| `getMixPrimitiveTypesInResponseBodyController()` | Provides access to MixPrimitiveTypesInResponseBody controller. | `MixPrimitiveTypesInResponseBodyController` |
 
 ### Methods
 

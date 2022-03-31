@@ -8,7 +8,6 @@ This is the base class for all exceptions that represent an error response from 
 | Name | Description | Return Type |
 |  --- | --- | --- |
 | `getEnvironment()` | Current API environment. | `Environment` |
-| `getVersion()` | version value. | `String` |
 | `getHttpClientConfig()` | Http Client Configuration instance. | `ReadonlyHttpClientConfiguration` |
 | `getBaseUri(Server server)` | Get base URI by current environment. | `String` |
 | `getBaseUri()` | Get base URI by current environment. | `String` |

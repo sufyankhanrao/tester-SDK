@@ -5,24 +5,24 @@ The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
-| `environment` | Environment | The API environment. <br> **Default: `Environment.SANDBOX`** |
+| `port` | `String` | *Default*: `"80"` |
+| `suites` | `SuiteCode` | *Default*: `SuiteCode.HEARTS` |
+| `environment` | Environment | The API environment. <br> **Default: `Environment.TESTING`** |
 | `httpClientConfig` | `ReadonlyHttpClientConfiguration` | Http Client Configuration instance. |
-| `customHeaderUserId` | `String` |  |
-| `customHeaderUserApiKey` | `String` |  |
-| `customHeaderDeveloperId` | `String` |  |
 
 The API client can be initialized as follows:
 
 ```java
-FortisAPIClient client = new FortisAPIClient.Builder()
+TesterClient client = new TesterClient.Builder()
     .httpClientConfig(configBuilder -> configBuilder
             .timeout(0))
-    .customHeaderAuthenticationCredentials("CustomHeaderUserId", "CustomHeaderUserApiKey", "CustomHeaderDeveloperId")
-    .environment(Environment.SANDBOX)
+    .environment(Environment.TESTING)
+    .port("80")
+    .suites(SuiteCode.HEARTS)
     .build();
 ```
 
-## Fortis APIClient Class
+## TesterClient Class
 
 The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 
@@ -30,26 +30,15 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 
 | Name | Description | Return Type |
 |  --- | --- | --- |
-| `getOnBoardingController()` | Provides access to OnBoarding controller. | `OnBoardingController` |
-| `getBatchesController()` | Provides access to Batches controller. | `BatchesController` |
-| `getContactsController()` | Provides access to Contacts controller. | `ContactsController` |
-| `getDeviceTermsController()` | Provides access to DeviceTerms controller. | `DeviceTermsController` |
-| `getLocationsController()` | Provides access to Locations controller. | `LocationsController` |
-| `getQuickInvoicesController()` | Provides access to QuickInvoices controller. | `QuickInvoicesController` |
-| `getRecurringController()` | Provides access to Recurring controller. | `RecurringController` |
-| `getSignaturesController()` | Provides access to Signatures controller. | `SignaturesController` |
-| `getTagsController()` | Provides access to Tags controller. | `TagsController` |
-| `getTerminalsController()` | Provides access to Terminals controller. | `TerminalsController` |
-| `getTokensController()` | Provides access to Tokens controller. | `TokensController` |
-| `getTransactionsACHController()` | Provides access to TransactionsACH controller. | `TransactionsACHController` |
-| `getTransactionsCreditCardController()` | Provides access to TransactionsCreditCard controller. | `TransactionsCreditCardController` |
-| `getTransactionsUpdatesController()` | Provides access to TransactionsUpdates controller. | `TransactionsUpdatesController` |
-| `getTransactionsReadController()` | Provides access to TransactionsRead controller. | `TransactionsReadController` |
-| `getLevel3DataController()` | Provides access to Level3Data controller. | `Level3DataController` |
-| `getUsersController()` | Provides access to Users controller. | `UsersController` |
-| `getWebhooksController()` | Provides access to Webhooks controller. | `WebhooksController` |
-| `getElementsController()` | Provides access to Elements controller. | `ElementsController` |
-| `getAsyncProcessingController()` | Provides access to AsyncProcessing controller. | `AsyncProcessingController` |
+| `getResponseTypesController()` | Provides access to ResponseTypes controller. | `ResponseTypesController` |
+| `getFormParamsController()` | Provides access to FormParams controller. | `FormParamsController` |
+| `getBodyParamsController()` | Provides access to BodyParams controller. | `BodyParamsController` |
+| `getErrorCodesController()` | Provides access to ErrorCodes controller. | `ErrorCodesController` |
+| `getQueryParamController()` | Provides access to QueryParam controller. | `QueryParamController` |
+| `getEchoController()` | Provides access to Echo controller. | `EchoController` |
+| `getHeaderController()` | Provides access to Header controller. | `HeaderController` |
+| `getTemplateParamsController()` | Provides access to TemplateParams controller. | `TemplateParamsController` |
+| `getQueryParamsController()` | Provides access to QueryParams controller. | `QueryParamsController` |
 
 ### Methods
 
@@ -57,6 +46,8 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 |  --- | --- | --- |
 | `shutdown()` | Shutdown the underlying HttpClient instance. | `void` |
 | `getEnvironment()` | Current API environment. | `Environment` |
+| `getPort()` | port value. | `String` |
+| `getSuites()` | suites value. | `SuiteCode` |
 | `getHttpClient()` | The HTTP Client instance to use for making HTTP requests. | `HttpClient` |
 | `getHttpClientConfig()` | Http Client Configuration instance. | `ReadonlyHttpClientConfiguration` |
 | `getBaseUri(Server server)` | Get base URI by current environment | `String` |

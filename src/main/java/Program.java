@@ -1,20 +1,25 @@
 import java.io.IOException;
-import localhost3000.Environment;
-import localhost3000.TesterClient;
-import localhost3000.exceptions.ApiException;
-import localhost3000.models.SuiteCode;
+import tech.fortis.sandbox.api.Environment;
+import tech.fortis.sandbox.api.FortisAPIClient;
+import tech.fortis.sandbox.api.exceptions.ApiException;
+import tech.fortis.sandbox.api.models.Page;
 
 public class Program {
     public static void main(String[] args) throws ApiException, IOException {
-        TesterClient client = new TesterClient.Builder()
-                .httpClientConfig(configBuilder -> configBuilder
-                        .timeout(0).isSkipSslCertVerification(true))
-                .environment(Environment.TESTING)
-                .port("80")
-                .suites(SuiteCode.HEARTS)
-                .build();
-        
-        
-        System.out.println(client.getResponseTypesController().get1123DateTime());
+        FortisAPIClient client = new FortisAPIClient.Builder()
+                .httpClientConfig(configBuilder -> configBuilder.timeout(0))
+                .customHeaderAuthenticationCredentials("11ec32a6aea0e78ea5638a19",
+                        "11ec8d9bdf472c4aba3adfc9", "260eJswa")
+                .environment(Environment.SANDBOX).build();
+//         System.out.println(client.getRecurringController()
+//         .listAllRecurringRecord(new Page.Builder().number(5).size(5).build(), null, null));
+        // System.out.println(client.getBatchesController()
+        // .listAllBatches(new Page.Builder().number(5).size(5).build(), null, null));
+//        System.out.println(client.getContactsController()
+//                .listAllContacts(new Page.Builder().number(5).size(5).build(), null, null));
+//        System.out.println(client.getContactsController()
+//                .listAllContacts(new Page.Builder().number(5).size(5).build(), null, null));
+        System.out.println(client.getTransactionsReadController()
+                .listTransactions(new Page.Builder().number(5).size(5).build(), null, null));
     }
 }

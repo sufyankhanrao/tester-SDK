@@ -63,7 +63,7 @@ public class DateTimeHelper {
      * @return The converted String
      */
     public static String toUnixTimestamp(LocalDateTime value) {
-        return value == null ? null : Long.toString(value.toEpochSecond(java.time.ZoneOffset.UTC));
+        return value == null ? null : Long.toString(toUnixTimestampLong(value));
     }
 
     /**
@@ -121,7 +121,10 @@ public class DateTimeHelper {
      * @return The converted Long
      */
     public static Long toUnixTimestampLong(LocalDateTime value) {
-        return value == null ? null : value.toEpochSecond(java.time.ZoneOffset.UTC);
+        return value == null ? null
+                : LocalDateTime
+                        .ofInstant(value.atZone(ZoneId.systemDefault()).toInstant(), ZoneOffset.UTC)
+                        .toEpochSecond(ZoneOffset.UTC);
     }
 
     /**

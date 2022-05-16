@@ -1360,7 +1360,7 @@ public final class DefaultBodyParamsController extends BaseController implements
         headers.add("accept", "application/json");
 
         //load all body parameters for the outgoing API request
-        Map<String, String> bodyParameters = new HashMap<>();
+        Map<String, Object> bodyParameters = new HashMap<>();
         bodyParameters.put("field", field);
         bodyParameters.put("name", name);
         //remove null values from the map
